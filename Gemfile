@@ -32,6 +32,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 
 gem 'compass', '~> 0.11.3'
 gem 'haml', '~> 3.1.1'
+gem 'haml_rails', '~> 0.1.0' #for haml generators
 gem 'high_voltage', '~> 0.9.4' #static pages
 
 group :development do
