@@ -37,7 +37,7 @@ module Albumfs
     config.encoding = "utf-8"
 
     # Configure sensitive parameters which will be filtered from the log file.
-    config.filter_parameters += [:password]
+    config.filter_parameters += [:password, :password_confirmation]
 
     # For rails3_haml_scaffold_generator
     config.generators do |g|
