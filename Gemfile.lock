@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/sferik/rails_admin.git
+  revision: d4058eb5f4bcaff375d40b36f9f45363b35e25cf
+  specs:
+    rails_admin (0.0.1)
+      builder (~> 2.1.0)
+      fastercsv
+      rails (~> 3.0.7)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -43,6 +52,7 @@ GEM
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    fastercsv (1.5.4)
     fssm (0.2.7)
     haml (3.1.2)
     haml_rails (0.1.0)
@@ -114,6 +124,7 @@ DEPENDENCIES
   haml_rails (~> 0.1.0)
   high_voltage (~> 0.9.4)
   rails (~> 3.0.8)
+  rails_admin!
   rspec (~> 2.6.0)
   rspec-rails (~> 2.6.1)
   sqlite3-ruby

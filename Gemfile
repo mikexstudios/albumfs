@@ -36,7 +36,8 @@ gem 'haml_rails', '~> 0.1.0' #for haml generators
 
 gem 'high_voltage', '~> 0.9.4' #static pages
 
-gem 'devise', '~> 1.3.4'
+gem 'devise', '~> 1.3.4' #must be required before rails_admin
+gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 
 group :development do
   gem 'rspec-rails', '~> 2.6.1'
