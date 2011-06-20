@@ -1,0 +1,10 @@
+TODO
+----
+
+- Install authentication system (done with devise)
+- Theme authentication login/logout pages
+- Install admin interface (done with rails_admin)
+- Add ability to search through albums / songs / artists.
+- Add Artist, Album, Source models.
+- Add haml/compass functionality (done).
+- Search box on home page.
