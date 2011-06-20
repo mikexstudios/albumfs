@@ -16,7 +16,7 @@
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
     
   
-  %body{:class => 'bp'}
+  %body{ :id => "#{location_name}", :class => "bp #{controller.controller_name}" }
     -#%p.notice= notice
     -#%p.alert= alert
     = yield

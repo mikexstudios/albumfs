@@ -1,11 +1,19 @@
 TODO
 ----
 
-- Install authentication system (done with devise)
 - Theme authentication login/logout pages
-- Install admin interface (done with rails_admin)
 - Add ability to search through albums / songs / artists.
-- Add Artist, Album, Source models.
-- Add haml/compass functionality (done).
 - Search box on home page.
 - Use slugs on artist, album models (https://github.com/norman/friendly_id)
+- Populate database with information from 3rd party. Get the top N artists in
+  the charts.
+
+
+Completed TODO
+--------------
+
+- Install authentication system (done with devise)
+- Install admin interface (done with rails_admin)
+- Add Artist, Album, Source models (done).
+- Add haml/compass functionality (done).
+- Add unique id to body for views. (done, see application_helpers.rb)
