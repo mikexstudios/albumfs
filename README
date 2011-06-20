@@ -8,3 +8,4 @@ TODO
 - Add Artist, Album, Source models.
 - Add haml/compass functionality (done).
 - Search box on home page.
+- Use slugs on artist, album models (https://github.com/norman/friendly_id)
