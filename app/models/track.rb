@@ -1,4 +1,7 @@
 class Track < ActiveRecord::Base
+  attr_accessible :title, :position
+
+  belongs_to :album
 end
 
 # == Schema Information

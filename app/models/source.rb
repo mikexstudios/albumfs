@@ -1,4 +1,7 @@
 class Source < ActiveRecord::Base
+  attr_accessible :type, :url
+
+  belongs_to :album
 end
 
 # == Schema Information

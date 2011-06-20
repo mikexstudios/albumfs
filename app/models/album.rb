@@ -1,4 +1,9 @@
 class Album < ActiveRecord::Base
+  attr_accessible :name, :release_date
+
+  belongs_to :artist
+  has_many :sources
+  has_many :tracks
 end
 
 # == Schema Information
