@@ -17,7 +17,8 @@
     
   
   %body{ :id => "#{location_name}", :class => "bp #{controller.controller_name}" }
-    -#%p.notice= notice
-    -#%p.alert= alert
-    = yield
+    #container
+      -#%p.notice= notice
+      -#%p.alert= alert
+      = yield
 

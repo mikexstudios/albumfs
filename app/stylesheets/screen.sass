@@ -11,6 +11,8 @@
 // configuration applied, uncomment:
 // @include blueprint
 
+@import compass
+
 // If you are doing a lot of stylesheet concatenation, it is suggested
 // that you scope your blueprint styles, so that you can better control
 // what pages use blueprint when stylesheets are concatenated together.
@@ -43,4 +45,35 @@ body.two-col
     // true means it's the last column in the row
     +column($content-columns, true)
 
+
+body
+  #container
+    +container
+    //+showgrid
+  .logo
+    font-family: Georgia, Times, Times New Roman, serif
+    .fs
+      color: #f00
+  h1.logo
+    margin-bottom: 0.2em
+
+#placeholder
+  //+showgrid
+  +column($blueprint-grid-columns / 2, true)
+  //Push the column 5.5 columns to the right to center it on the page.
+  +push(5.5)
+
+  text-align: center
+  border: 12px solid #ddd
+  border-left: 36px solid #ddd
+  //+border-radius(8px)
+  padding: 130px 0 
+  margin-top: 50px
+
+  .logo
+    font-size: 5em
+  p
+    font-size: 2em
+    margin-bottom: 0
+      
 
