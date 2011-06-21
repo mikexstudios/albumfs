@@ -18,6 +18,14 @@
   
   %body{ :id => "#{location_name}", :class => "bp #{controller.controller_name}" }
     #container
+      #header
+        %h1.logo ALBUM<span class="fs">FS</span>
+        .navigation
+          %ul
+            %li.search Search
+            %li.signup Signup
+            %li.login Login
+
       -#%p.notice= notice
       -#%p.alert= alert
       = yield

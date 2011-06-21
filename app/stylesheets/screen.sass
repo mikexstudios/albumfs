@@ -49,13 +49,38 @@ body.two-col
 body
   #container
     +container
-    //+showgrid
+    //margin-top: 1em
+    +showgrid
+    //margin: 1em
+
   .logo
     font-family: Georgia, Times, Times New Roman, serif
     .fs
       color: #f00
   h1.logo
     margin-bottom: 0.2em
+
+  #header
+    +column($blueprint-grid-columns)
+    background-color: #eee
+    .logo
+      //+showgrid
+      $logo-columns: floor($blueprint-grid-columns / 4)
+      +column($logo-columns)
+    .navigation
+      //+showgrid
+      $navigation-columns: ceil(3 * $blueprint-grid-columns / 4)
+      +column($navigation-columns, true)
+      font-size: 1.5em
+      margin-top: 0.8em
+      ul
+        +horizontal-list
+        float: right
+        li
+          margin-left: 1em
+    
+
+
 
 #placeholder
   //+showgrid
