@@ -72,6 +72,7 @@ body
     //background-color: #eee
     border-bottom: 2px solid #ddd
     padding: 0.5em 0 0 0
+    margin-bottom: 1em
     .logo
       //+showgrid
       $logo-columns: floor($blueprint-grid-columns / 4)
@@ -99,6 +100,7 @@ body
 
   #content
     +column($blueprint-grid-columns)
+
     
 
 
@@ -129,6 +131,14 @@ body.sessions
 
 body#new_sessions
   #content
+    //This part of styling is the same as the placeholder
+    +column($blueprint-grid-columns / 2, true)
+    //Push the column 5.5 columns to the right to center it on the page.
+    +push(5.5)
+    border: 12px solid #ddd
+    border-left: 36px solid #ddd
+    padding: 60px 0 
+    
 
 
 

@@ -585,12 +585,13 @@ body #header {
   width: 950px;
   border-bottom: 2px solid #dddddd;
   padding: 0.5em 0 0 0;
+  margin-bottom: 1em;
 }
 /* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #header {
   overflow-x: hidden;
 }
-/* line 75, ../../app/stylesheets/screen.sass */
+/* line 76, ../../app/stylesheets/screen.sass */
 body #header .logo {
   display: inline;
   float: left;
@@ -607,7 +608,7 @@ body #header .logo {
 * html body #header .logo {
   overflow-x: hidden;
 }
-/* line 85, ../../app/stylesheets/screen.sass */
+/* line 86, ../../app/stylesheets/screen.sass */
 body #header .navigation {
   display: inline;
   float: left;
@@ -625,7 +626,7 @@ body #header .navigation {
 * html body #header .navigation {
   overflow-x: hidden;
 }
-/* line 94, ../../app/stylesheets/screen.sass */
+/* line 95, ../../app/stylesheets/screen.sass */
 body #header .navigation ul {
   margin: 0;
   padding: 0;
@@ -657,11 +658,11 @@ body #header .navigation ul li:last-child {
 body #header .navigation ul li.last {
   padding-right: 0;
 }
-/* line 97, ../../app/stylesheets/screen.sass */
+/* line 98, ../../app/stylesheets/screen.sass */
 body #header .navigation ul li {
   margin-left: 1em;
 }
-/* line 100, ../../app/stylesheets/screen.sass */
+/* line 101, ../../app/stylesheets/screen.sass */
 body #content {
   display: inline;
   float: left;
@@ -673,7 +674,7 @@ body #content {
   overflow-x: hidden;
 }
 
-/* line 106, ../../app/stylesheets/screen.sass */
+/* line 108, ../../app/stylesheets/screen.sass */
 #placeholder {
   display: inline;
   float: left;
@@ -693,17 +694,36 @@ body #content {
 * html #placeholder {
   overflow-x: hidden;
 }
-/* line 119, ../../app/stylesheets/screen.sass */
+/* line 121, ../../app/stylesheets/screen.sass */
 #placeholder .logo {
   font-size: 5em;
 }
-/* line 121, ../../app/stylesheets/screen.sass */
+/* line 123, ../../app/stylesheets/screen.sass */
 #placeholder p {
   font-size: 2em;
   margin-bottom: 0;
 }
 
-/* line 127, ../../app/stylesheets/screen.sass */
+/* line 129, ../../app/stylesheets/screen.sass */
 body.sessions #content > h2 {
   font-family: "Georgia", "Times", "Times New Roman", serif;
+}
+
+/* line 133, ../../app/stylesheets/screen.sass */
+body#new_sessions #content {
+  display: inline;
+  float: left;
+  margin-right: 0;
+  width: 470px;
+  display: inline;
+  float: left;
+  position: relative;
+  margin: 0 -220px 1.5em 220px;
+  border: 12px solid #dddddd;
+  border-left: 36px solid #dddddd;
+  padding: 60px 0;
+}
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body#new_sessions #content {
+  overflow-x: hidden;
 }
