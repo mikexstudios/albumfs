@@ -14,7 +14,9 @@
     = stylesheet_link_tag 'print.css', :media => 'print'
     /[if lt IE 8]
       = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
-    
+
+    -# For css3 buttons
+    = stylesheet_link_tag 'http://ubuwaits.github.com/css3-buttons/css/buttons.css'
   
   %body{ :id => "#{location_name}", :class => "bp #{controller.controller_name}" }
     #container
@@ -27,7 +29,8 @@
             %li.login Login
 
       #content
-        -#%p.notice= notice
-        -#%p.alert= alert
-        = yield
+        .wrap
+          -#%p.notice= notice
+          -#%p.alert= alert
+          = yield
 

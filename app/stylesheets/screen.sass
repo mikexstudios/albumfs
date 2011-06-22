@@ -144,7 +144,19 @@ body#new_sessions
     +push(5.5)
     border: 12px solid #ddd
     border-left: 36px solid #ddd
-    padding: 60px 0 
+
+    .wrap
+      $placeholder-wrap-width: ($blueprint-grid-width + $blueprint-grid-margin) * ($blueprint-grid-columns / 2) - $blueprint-grid-margin
+      width: $placeholder-wrap-width
+      //These are porportional dimensions of a real cd case
+      height:  $placeholder-wrap-width * 5.5/5.75 
+      display: table-cell
+      vertical-align: middle
+      //text-align: center
+    form
+      +showgrid
+      +blueprint-form
+
     
 
 
