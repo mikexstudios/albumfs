@@ -15,3 +15,6 @@ http_path = "/"
 # line_comments = false
 
 preferred_syntax = :sass
+
+# Plugins
+require 'fancy-buttons'
