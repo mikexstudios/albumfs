@@ -86,7 +86,7 @@ body
     border-bottom: 2px solid #ddd
     padding: 0.5em 0 0 0
     margin-bottom: 1em
-    //display: none
+    display: none
     .logo
       //+showgrid
       $logo-columns: floor($blueprint-grid-columns / 4)
@@ -179,11 +179,7 @@ body#new_sessions
       margin-bottom: 1em
       input[type=submit]
         +fancy-button(#eee)
-        //The positioning here is very hackish and can break easily. This will
-        //change once we override the authentication templates.
-        position: absolute
-        right: 37px
-        bottom: 120px
+        float: right
       input[type=email], input[type=password]
         //We can't use 100% because padding in the input box pushes width out further
         width: 97%

@@ -6,7 +6,7 @@
 
     %title= yield :title
 
-    = stylesheet_link_tag 'scaffold'
+    -#= stylesheet_link_tag 'scaffold'
     = javascript_include_tag :defaults
 
     -# For compass stylesheets
@@ -33,7 +33,9 @@
 
       #content
         .wrap
-          -#%p.notice= notice
-          -#%p.alert= alert
+          - unless notice.blank?
+            %p.notice= notice
+          - unless alert.blank?
+            %p.alert= alert
           = yield
 

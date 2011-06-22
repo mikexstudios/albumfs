@@ -624,6 +624,7 @@ body #header {
   border-bottom: 2px solid #dddddd;
   padding: 0.5em 0 0 0;
   margin-bottom: 1em;
+  display: none;
 }
 /* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #header {
@@ -876,9 +877,7 @@ body#new_sessions #content form input[type=submit] {
   -ms-background-clip: padding-box;
   -khtml-background-clip: padding-box;
   background-clip: padding-box;
-  position: absolute;
-  right: 37px;
-  bottom: 120px;
+  float: right;
 }
 /* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
 body#new_sessions #content form input[type=submit], body#new_sessions #content form input[type=submit]:visited {
@@ -920,19 +919,19 @@ body#new_sessions #content form input[type=submit]:active {
 body#new_sessions #content form input[type=submit]:active, body#new_sessions #content form input[type=submit]:active:visited {
   color: #222222;
 }
-/* line 187, ../../app/stylesheets/screen.sass */
+/* line 183, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=password] {
   width: 97%;
   font-size: 2em;
   margin: 0;
   margin-bottom: 0.3em;
 }
-/* line 193, ../../app/stylesheets/screen.sass */
+/* line 189, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form p {
   margin-bottom: 0.3em;
 }
 
-/* line 197, ../../app/stylesheets/screen.sass */
+/* line 193, ../../app/stylesheets/screen.sass */
 body.registrations #content {
   display: inline;
   float: left;
@@ -954,7 +953,7 @@ body.registrations #content {
 * html body.registrations #content {
   overflow-x: hidden;
 }
-/* line 208, ../../app/stylesheets/screen.sass */
+/* line 204, ../../app/stylesheets/screen.sass */
 body.registrations #content h2 {
   margin-bottom: 0.3em;
 }
@@ -1019,7 +1018,7 @@ body.registrations #content form textarea {
   width: 390px;
   height: 250px;
 }
-/* line 213, ../../app/stylesheets/screen.sass */
+/* line 209, ../../app/stylesheets/screen.sass */
 body.registrations #content form input[type=submit] {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -1093,19 +1092,19 @@ body.registrations #content form input[type=submit]:active {
 body.registrations #content form input[type=submit]:active, body.registrations #content form input[type=submit]:active:visited {
   color: #222222;
 }
-/* line 218, ../../app/stylesheets/screen.sass */
+/* line 214, ../../app/stylesheets/screen.sass */
 body.registrations #content form input[type=email], body.registrations #content form input[type=password] {
   width: 97%;
   font-size: 2em;
   margin: 0;
   margin-bottom: 0.3em;
 }
-/* line 224, ../../app/stylesheets/screen.sass */
+/* line 220, ../../app/stylesheets/screen.sass */
 body.registrations #content form i {
   margin-bottom: 0;
   font-size: 0.8em;
 }
-/* line 228, ../../app/stylesheets/screen.sass */
+/* line 224, ../../app/stylesheets/screen.sass */
 body.registrations #content h3 {
   clear: right;
   border-top: 1px dashed #cccccc;
