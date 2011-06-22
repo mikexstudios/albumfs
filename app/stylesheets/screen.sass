@@ -73,6 +73,13 @@ body
   h1, h2, h3, h4, h5, h6
     font-family: $formal-font-family
 
+  #error_explanation
+    +error
+    h2
+      font-size: 1.4em
+    ul
+      margin: 0
+
   #header
     +column($blueprint-grid-columns)
     //background-color: #eee

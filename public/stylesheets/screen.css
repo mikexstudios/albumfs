@@ -595,6 +595,27 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "Georgia", "Times", "Times New Roman", serif;
 }
 /* line 76, ../../app/stylesheets/screen.sass */
+body #error_explanation {
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: 2px solid #dddddd;
+  background: #fbe3e4;
+  color: #8a1f11;
+  border-color: #fbc2c4;
+}
+/* line 27, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_interaction.scss */
+body #error_explanation a {
+  color: #8a1f11;
+}
+/* line 78, ../../app/stylesheets/screen.sass */
+body #error_explanation h2 {
+  font-size: 1.4em;
+}
+/* line 80, ../../app/stylesheets/screen.sass */
+body #error_explanation ul {
+  margin: 0;
+}
+/* line 83, ../../app/stylesheets/screen.sass */
 body #header {
   display: inline;
   float: left;
@@ -608,7 +629,7 @@ body #header {
 * html body #header {
   overflow-x: hidden;
 }
-/* line 83, ../../app/stylesheets/screen.sass */
+/* line 90, ../../app/stylesheets/screen.sass */
 body #header .logo {
   display: inline;
   float: left;
@@ -625,7 +646,7 @@ body #header .logo {
 * html body #header .logo {
   overflow-x: hidden;
 }
-/* line 93, ../../app/stylesheets/screen.sass */
+/* line 100, ../../app/stylesheets/screen.sass */
 body #header .navigation {
   display: inline;
   float: left;
@@ -643,7 +664,7 @@ body #header .navigation {
 * html body #header .navigation {
   overflow-x: hidden;
 }
-/* line 102, ../../app/stylesheets/screen.sass */
+/* line 109, ../../app/stylesheets/screen.sass */
 body #header .navigation ul {
   margin: 0;
   padding: 0;
@@ -675,11 +696,11 @@ body #header .navigation ul li:last-child {
 body #header .navigation ul li.last {
   padding-right: 0;
 }
-/* line 105, ../../app/stylesheets/screen.sass */
+/* line 112, ../../app/stylesheets/screen.sass */
 body #header .navigation ul li {
   margin-left: 1em;
 }
-/* line 108, ../../app/stylesheets/screen.sass */
+/* line 115, ../../app/stylesheets/screen.sass */
 body #content {
   display: inline;
   float: left;
@@ -691,7 +712,7 @@ body #content {
   overflow-x: hidden;
 }
 
-/* line 115, ../../app/stylesheets/screen.sass */
+/* line 122, ../../app/stylesheets/screen.sass */
 #placeholder {
   display: inline;
   float: left;
@@ -708,7 +729,7 @@ body #content {
 * html #placeholder {
   overflow-x: hidden;
 }
-/* line 126, ../../app/stylesheets/screen.sass */
+/* line 133, ../../app/stylesheets/screen.sass */
 #placeholder .wrap {
   width: 470px;
   height: 449.565px;
@@ -716,17 +737,17 @@ body #content {
   vertical-align: middle;
   text-align: center;
 }
-/* line 135, ../../app/stylesheets/screen.sass */
+/* line 142, ../../app/stylesheets/screen.sass */
 #placeholder .wrap .logo {
   font-size: 5em;
 }
-/* line 137, ../../app/stylesheets/screen.sass */
+/* line 144, ../../app/stylesheets/screen.sass */
 #placeholder .wrap p {
   font-size: 2em;
   margin-bottom: 0;
 }
 
-/* line 147, ../../app/stylesheets/screen.sass */
+/* line 154, ../../app/stylesheets/screen.sass */
 body#new_sessions #content {
   display: inline;
   float: left;
@@ -743,7 +764,7 @@ body#new_sessions #content {
 * html body#new_sessions #content {
   overflow-x: hidden;
 }
-/* line 155, ../../app/stylesheets/screen.sass */
+/* line 162, ../../app/stylesheets/screen.sass */
 body#new_sessions #content .wrap {
   width: 470px;
   height: 449.565px;
@@ -755,11 +776,11 @@ body#new_sessions #content .wrap {
   box-sizing: border-box;
   padding: 0 3em;
 }
-/* line 167, ../../app/stylesheets/screen.sass */
+/* line 174, ../../app/stylesheets/screen.sass */
 body#new_sessions #content h2 {
   margin-bottom: 0.3em;
 }
-/* line 169, ../../app/stylesheets/screen.sass */
+/* line 176, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form {
   margin-bottom: 1em;
 }
@@ -824,7 +845,7 @@ body#new_sessions #content form textarea {
   width: 390px;
   height: 250px;
 }
-/* line 173, ../../app/stylesheets/screen.sass */
+/* line 180, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form input[type=submit] {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -899,19 +920,19 @@ body#new_sessions #content form input[type=submit]:active {
 body#new_sessions #content form input[type=submit]:active, body#new_sessions #content form input[type=submit]:active:visited {
   color: #222222;
 }
-/* line 180, ../../app/stylesheets/screen.sass */
+/* line 187, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=password] {
   width: 97%;
   font-size: 2em;
   margin: 0;
   margin-bottom: 0.3em;
 }
-/* line 186, ../../app/stylesheets/screen.sass */
+/* line 193, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form p {
   margin-bottom: 0.3em;
 }
 
-/* line 190, ../../app/stylesheets/screen.sass */
+/* line 197, ../../app/stylesheets/screen.sass */
 body.registrations #content {
   display: inline;
   float: left;
@@ -933,7 +954,7 @@ body.registrations #content {
 * html body.registrations #content {
   overflow-x: hidden;
 }
-/* line 201, ../../app/stylesheets/screen.sass */
+/* line 208, ../../app/stylesheets/screen.sass */
 body.registrations #content h2 {
   margin-bottom: 0.3em;
 }
@@ -998,7 +1019,7 @@ body.registrations #content form textarea {
   width: 390px;
   height: 250px;
 }
-/* line 206, ../../app/stylesheets/screen.sass */
+/* line 213, ../../app/stylesheets/screen.sass */
 body.registrations #content form input[type=submit] {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -1072,19 +1093,19 @@ body.registrations #content form input[type=submit]:active {
 body.registrations #content form input[type=submit]:active, body.registrations #content form input[type=submit]:active:visited {
   color: #222222;
 }
-/* line 211, ../../app/stylesheets/screen.sass */
+/* line 218, ../../app/stylesheets/screen.sass */
 body.registrations #content form input[type=email], body.registrations #content form input[type=password] {
   width: 97%;
   font-size: 2em;
   margin: 0;
   margin-bottom: 0.3em;
 }
-/* line 217, ../../app/stylesheets/screen.sass */
+/* line 224, ../../app/stylesheets/screen.sass */
 body.registrations #content form i {
   margin-bottom: 0;
   font-size: 0.8em;
 }
-/* line 221, ../../app/stylesheets/screen.sass */
+/* line 228, ../../app/stylesheets/screen.sass */
 body.registrations #content h3 {
   clear: right;
   border-top: 1px dashed #cccccc;
