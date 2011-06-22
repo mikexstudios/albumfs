@@ -53,7 +53,7 @@ body
   #container
     +container
     //margin-top: 1em
-    +showgrid
+    //+showgrid
     //margin: 1em
 
   .logo
@@ -70,12 +70,16 @@ body
   h1.logo
     margin-bottom: 0.2em
 
+  h1, h2, h3, h4, h5, h6
+    font-family: $formal-font-family
+
   #header
     +column($blueprint-grid-columns)
     //background-color: #eee
     border-bottom: 2px solid #ddd
     padding: 0.5em 0 0 0
     margin-bottom: 1em
+    //display: none
     .logo
       //+showgrid
       $logo-columns: floor($blueprint-grid-columns / 4)
@@ -156,11 +160,35 @@ body#new_sessions
       display: table-cell
       vertical-align: middle
       //text-align: center
+
+      +box-sizing(border-box)
+      padding: 0 3em
+
+    h2
+      margin-bottom: 0.3em
     form
-      +showgrid
+      //+showgrid
       +blueprint-form
+      margin-bottom: 1em
       input[type=submit]
         +fancy-button(#eee)
+        //The positioning here is very hackish and can break easily. This will
+        //change once we override the authentication templates.
+        position: absolute
+        right: 37px
+        bottom: 126px
+      input[type=email], input[type=password]
+        //We can't use 100% because padding in the input box pushes width out further
+        width: 97%
+        font-size: 2em
+      p
+        margin-bottom: 0.3em
+      label
+        display: block
+        //Correct for the <br> after the label
+        margin-bottom: -2.3em
+      label[for=user_remember_me]
+        display: inline
 
     
 
