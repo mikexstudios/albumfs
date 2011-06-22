@@ -554,7 +554,7 @@ body #container {
 }
 /* line 56, ../../app/stylesheets/screen.sass */
 body .logo {
-  font-family: Georgia, Times, Times New Roman, serif;
+  font-family: "Georgia", "Times", "Times New Roman", serif;
 }
 /* line 58, ../../app/stylesheets/screen.sass */
 body .logo .fs {
@@ -661,8 +661,19 @@ body #header .navigation ul li.last {
 body #header .navigation ul li {
   margin-left: 1em;
 }
+/* line 100, ../../app/stylesheets/screen.sass */
+body #content {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 950px;
+}
+/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
+* html body #content {
+  overflow-x: hidden;
+}
 
-/* line 103, ../../app/stylesheets/screen.sass */
+/* line 106, ../../app/stylesheets/screen.sass */
 #placeholder {
   display: inline;
   float: left;
@@ -682,12 +693,17 @@ body #header .navigation ul li {
 * html #placeholder {
   overflow-x: hidden;
 }
-/* line 116, ../../app/stylesheets/screen.sass */
+/* line 119, ../../app/stylesheets/screen.sass */
 #placeholder .logo {
   font-size: 5em;
 }
-/* line 118, ../../app/stylesheets/screen.sass */
+/* line 121, ../../app/stylesheets/screen.sass */
 #placeholder p {
   font-size: 2em;
   margin-bottom: 0;
+}
+
+/* line 127, ../../app/stylesheets/screen.sass */
+body.sessions #content > h2 {
+  font-family: "Georgia", "Times", "Times New Roman", serif;
 }

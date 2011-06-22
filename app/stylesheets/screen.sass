@@ -54,16 +54,16 @@ body
     //margin: 1em
 
   .logo
-    font-family: Georgia, Times, Times New Roman, serif
+    font-family: $formal-font-family
     .fs
-      color: #f00
+      color: $logo-red
     a
       text-decoration: none
       color: $font-color
-    a:visited
-      color: $font-color
-    a:hover
-      color: $font-color
+      &:visited
+        color: $font-color
+      &:hover
+        color: $font-color
   h1.logo
     margin-bottom: 0.2em
 
@@ -96,6 +96,9 @@ body
         float: right
         li
           margin-left: 1em
+
+  #content
+    +column($blueprint-grid-columns)
     
 
 
@@ -119,4 +122,13 @@ body
     font-size: 2em
     margin-bottom: 0
       
+
+body.sessions
+  #content > h2
+    font-family: $formal-font-family
+
+body#new_sessions
+  #content
+
+
 
