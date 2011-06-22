@@ -10,3 +10,8 @@ $blueprint-grid-margin    : 10px
 $blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $blueprint-grid-columns - $blueprint-grid-margin
 
 $blueprint-font-family: "Helvetica", "Arial", "Verdana", sans-serif
+
+// We use the CSS3 box-sizing model to set internal padding so that we can work
+// with blueprint css' columns while keeping padding. This defines the side padding
+// that we will use throughout the application.
+$side-padding: 0.4em

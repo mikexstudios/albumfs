@@ -57,22 +57,40 @@ body
     font-family: Georgia, Times, Times New Roman, serif
     .fs
       color: #f00
+    a
+      text-decoration: none
+      color: $font-color
+    a:visited
+      color: $font-color
+    a:hover
+      color: $font-color
   h1.logo
     margin-bottom: 0.2em
 
   #header
     +column($blueprint-grid-columns)
-    background-color: #eee
+    //background-color: #eee
+    border-bottom: 2px solid #ddd
+    padding: 0.5em 0 0 0
     .logo
       //+showgrid
       $logo-columns: floor($blueprint-grid-columns / 4)
       +column($logo-columns)
+      margin-bottom: 0
+
+      +box-sizing(border-box)
+      //Decrease padding just a bit because the A slant looks like more padding is
+      //being applied.
+      padding-left: $side-padding - 0.1em
     .navigation
       //+showgrid
       $navigation-columns: ceil(3 * $blueprint-grid-columns / 4)
       +column($navigation-columns, true)
       font-size: 1.5em
-      margin-top: 0.8em
+      margin-top: 0.65em
+
+      +box-sizing(border-box)
+      padding-right: $side-padding
       ul
         +horizontal-list
         float: right

@@ -7,6 +7,7 @@ TODO
 - Use slugs on artist, album models (https://github.com/norman/friendly_id)
 - Populate database with information from 3rd party. Get the top N artists in
   the charts.
+- Make another layout template that does not use the applications layout template.
 
 
 Completed TODO

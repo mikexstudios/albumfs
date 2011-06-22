@@ -561,46 +561,71 @@ body .logo .fs {
   color: red;
 }
 /* line 60, ../../app/stylesheets/screen.sass */
+body .logo a {
+  text-decoration: none;
+  color: #333333;
+}
+/* line 63, ../../app/stylesheets/screen.sass */
+body .logo a:visited {
+  color: #333333;
+}
+/* line 65, ../../app/stylesheets/screen.sass */
+body .logo a:hover {
+  color: #333333;
+}
+/* line 67, ../../app/stylesheets/screen.sass */
 body h1.logo {
   margin-bottom: 0.2em;
 }
-/* line 63, ../../app/stylesheets/screen.sass */
+/* line 70, ../../app/stylesheets/screen.sass */
 body #header {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 950px;
-  background-color: #eeeeee;
+  border-bottom: 2px solid #dddddd;
+  padding: 0.5em 0 0 0;
 }
 /* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #header {
   overflow-x: hidden;
 }
-/* line 66, ../../app/stylesheets/screen.sass */
+/* line 75, ../../app/stylesheets/screen.sass */
 body #header .logo {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 230px;
+  margin-bottom: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 0.3em;
 }
 /* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #header .logo {
   overflow-x: hidden;
 }
-/* line 70, ../../app/stylesheets/screen.sass */
+/* line 85, ../../app/stylesheets/screen.sass */
 body #header .navigation {
   display: inline;
   float: left;
   margin-right: 0;
   width: 710px;
   font-size: 1.5em;
-  margin-top: 0.8em;
+  margin-top: 0.65em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 0.4em;
 }
 /* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
 * html body #header .navigation {
   overflow-x: hidden;
 }
-/* line 76, ../../app/stylesheets/screen.sass */
+/* line 94, ../../app/stylesheets/screen.sass */
 body #header .navigation ul {
   margin: 0;
   padding: 0;
@@ -632,12 +657,12 @@ body #header .navigation ul li:last-child {
 body #header .navigation ul li.last {
   padding-right: 0;
 }
-/* line 79, ../../app/stylesheets/screen.sass */
+/* line 97, ../../app/stylesheets/screen.sass */
 body #header .navigation ul li {
   margin-left: 1em;
 }
 
-/* line 85, ../../app/stylesheets/screen.sass */
+/* line 103, ../../app/stylesheets/screen.sass */
 #placeholder {
   display: inline;
   float: left;
@@ -657,11 +682,11 @@ body #header .navigation ul li {
 * html #placeholder {
   overflow-x: hidden;
 }
-/* line 98, ../../app/stylesheets/screen.sass */
+/* line 116, ../../app/stylesheets/screen.sass */
 #placeholder .logo {
   font-size: 5em;
 }
-/* line 100, ../../app/stylesheets/screen.sass */
+/* line 118, ../../app/stylesheets/screen.sass */
 #placeholder p {
   font-size: 2em;
   margin-bottom: 0;
