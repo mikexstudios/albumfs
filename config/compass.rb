@@ -17,4 +17,4 @@ http_path = "/"
 preferred_syntax = :sass
 
 # Plugins
-#require 'fancy-buttons'
+require 'fancy-buttons'

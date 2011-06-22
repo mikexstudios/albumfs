@@ -31,6 +31,7 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # end
 
 gem 'compass', '~> 0.11.3'
+gem 'fancy-buttons', '~> 1.1.1'
 gem 'haml', '~> 3.1.1'
 gem 'haml_rails', '~> 0.1.0' #for haml generators
 
