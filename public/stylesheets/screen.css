@@ -778,8 +778,8 @@ body#home_pages #placeholder .wrap p {
   margin-bottom: 0;
 }
 
-/* line 169, ../../app/stylesheets/screen.sass */
-body#new_sessions #content {
+/* line 170, ../../app/stylesheets/screen.sass */
+body#new_sessions #content, body.registrations #content {
   display: inline;
   float: left;
   margin-right: 0;
@@ -792,92 +792,89 @@ body#new_sessions #content {
   border-left: 36px solid #dddddd;
 }
 /* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body#new_sessions #content {
+* html body#new_sessions #content, * html body.registrations #content {
   overflow-x: hidden;
 }
-/* line 177, ../../app/stylesheets/screen.sass */
-body#new_sessions #content .wrap {
+/* line 178, ../../app/stylesheets/screen.sass */
+body#new_sessions #content .wrap, body.registrations #content .wrap {
   width: 470px;
   height: 449.565px;
+  min-height: 449.565px;
   display: table-cell;
   vertical-align: middle;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0 3em;
-}
-/* line 189, ../../app/stylesheets/screen.sass */
-body#new_sessions #content h2 {
-  margin-bottom: 0.3em;
+  padding: 0em 3em;
 }
 /* line 191, ../../app/stylesheets/screen.sass */
-body#new_sessions #content form {
-  margin-bottom: 1em;
+body#new_sessions #content h2, body.registrations #content h2 {
+  margin-bottom: 0.3em;
 }
 /* line 18, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form label {
+body#new_sessions #content form label, body.registrations #content form label {
   font-weight: bold;
 }
 /* line 19, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form fieldset {
+body#new_sessions #content form fieldset, body.registrations #content form fieldset {
   padding: 1.4em;
   margin: 0 0 1.5em 0;
 }
 /* line 20, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form legend {
+body#new_sessions #content form legend, body.registrations #content form legend {
   font-weight: bold;
   font-size: 1.2em;
 }
 /* line 26, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form input.text, body#new_sessions #content form input.title, body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=text], body#new_sessions #content form input[type=password] {
+body#new_sessions #content form input.text, body#new_sessions #content form input.title, body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=text], body#new_sessions #content form input[type=password], body.registrations #content form input.text, body.registrations #content form input.title, body.registrations #content form input[type=email], body.registrations #content form input[type=text], body.registrations #content form input[type=password] {
   margin: 0.5em 0;
   background-color: white;
   padding: 5px;
 }
 /* line 27, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form input.title {
+body#new_sessions #content form input.title, body.registrations #content form input.title {
   font-size: 1.5em;
 }
 /* line 29, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form textarea {
+body#new_sessions #content form textarea, body.registrations #content form textarea {
   margin: 0.5em 0;
   padding: 5px;
 }
 /* line 30, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form select {
+body#new_sessions #content form select, body.registrations #content form select {
   margin: 0.5em 0;
 }
 /* line 55, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form fieldset {
+body#new_sessions #content form fieldset, body.registrations #content form fieldset {
   border: 1px solid #cccccc;
 }
 /* line 58, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form input.text, body#new_sessions #content form input.title, body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=text], body#new_sessions #content form input[type=password], body#new_sessions #content form textarea {
+body#new_sessions #content form input.text, body#new_sessions #content form input.title, body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=text], body#new_sessions #content form input[type=password], body#new_sessions #content form textarea, body.registrations #content form input.text, body.registrations #content form input.title, body.registrations #content form input[type=email], body.registrations #content form input[type=text], body.registrations #content form input[type=password], body.registrations #content form textarea {
   background-color: #fff;
   border: 1px solid #bbbbbb;
 }
 /* line 61, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form input.text:focus, body#new_sessions #content form input.title:focus, body#new_sessions #content form input[type=email]:focus, body#new_sessions #content form input[type=text]:focus, body#new_sessions #content form input[type=password]:focus, body#new_sessions #content form textarea:focus {
+body#new_sessions #content form input.text:focus, body#new_sessions #content form input.title:focus, body#new_sessions #content form input[type=email]:focus, body#new_sessions #content form input[type=text]:focus, body#new_sessions #content form input[type=password]:focus, body#new_sessions #content form textarea:focus, body.registrations #content form input.text:focus, body.registrations #content form input.title:focus, body.registrations #content form input[type=email]:focus, body.registrations #content form input[type=text]:focus, body.registrations #content form input[type=password]:focus, body.registrations #content form textarea:focus {
   border: 1px solid #666666;
 }
 /* line 65, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form select {
+body#new_sessions #content form select, body.registrations #content form select {
   background-color: #fff;
   border-width: 1px;
   border-style: solid;
 }
 /* line 44, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form input.text, body#new_sessions #content form input.title, body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=text], body#new_sessions #content form input[type=password] {
+body#new_sessions #content form input.text, body#new_sessions #content form input.title, body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=text], body#new_sessions #content form input[type=password], body.registrations #content form input.text, body.registrations #content form input.title, body.registrations #content form input[type=email], body.registrations #content form input[type=text], body.registrations #content form input[type=password] {
   width: 300px;
 }
 /* line 46, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body#new_sessions #content form textarea {
+body#new_sessions #content form textarea, body.registrations #content form textarea {
   width: 390px;
   height: 250px;
 }
-/* line 195, ../../app/stylesheets/screen.sass */
-body#new_sessions #content form input[type=submit] {
+/* line 196, ../../app/stylesheets/screen.sass */
+body#new_sessions #content form input[type=submit], body.registrations #content form input[type=submit] {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   -o-border-radius: 6px;
@@ -910,11 +907,11 @@ body#new_sessions #content form input[type=submit] {
   float: right;
 }
 /* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body#new_sessions #content form input[type=submit], body#new_sessions #content form input[type=submit]:visited {
+body#new_sessions #content form input[type=submit], body#new_sessions #content form input[type=submit]:visited, body.registrations #content form input[type=submit], body.registrations #content form input[type=submit]:visited {
   color: #222222;
 }
 /* line 31, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body#new_sessions #content form input[type=submit]:hover, body#new_sessions #content form input[type=submit]:focus {
+body#new_sessions #content form input[type=submit]:hover, body#new_sessions #content form input[type=submit]:focus, body.registrations #content form input[type=submit]:hover, body.registrations #content form input[type=submit]:focus {
   background-color: white;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(10%, #ffffff), color-stop(50%, #dfdfdf), color-stop(50%, #d7d7d7), color-stop(100%, #f1f1f1));
   background-image: -webkit-linear-gradient(#ffffff, #ffffff 10%, #dfdfdf 50%, #d7d7d7 50%, #f1f1f1);
@@ -926,11 +923,11 @@ body#new_sessions #content form input[type=submit]:hover, body#new_sessions #con
   text-shadow: white 0px 1px 1px;
 }
 /* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body#new_sessions #content form input[type=submit]:hover, body#new_sessions #content form input[type=submit]:hover:visited, body#new_sessions #content form input[type=submit]:focus, body#new_sessions #content form input[type=submit]:focus:visited {
+body#new_sessions #content form input[type=submit]:hover, body#new_sessions #content form input[type=submit]:hover:visited, body#new_sessions #content form input[type=submit]:focus, body#new_sessions #content form input[type=submit]:focus:visited, body.registrations #content form input[type=submit]:hover, body.registrations #content form input[type=submit]:hover:visited, body.registrations #content form input[type=submit]:focus, body.registrations #content form input[type=submit]:focus:visited {
   color: #222222;
 }
 /* line 36, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body#new_sessions #content form input[type=submit]:active {
+body#new_sessions #content form input[type=submit]:active, body.registrations #content form input[type=submit]:active {
   background-color: white;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dfdfdf), color-stop(30%, #e4e4e4), color-stop(50%, #dadada), color-stop(50%, #d2d2d2), color-stop(100%, #f3f3f3));
   background-image: -webkit-linear-gradient(#dfdfdf, #e4e4e4 30%, #dadada 50%, #d2d2d2 50%, #f3f3f3);
@@ -946,197 +943,44 @@ body#new_sessions #content form input[type=submit]:active {
   box-shadow: #c8c8c8 0 0.08em 0.2em 1px inset;
 }
 /* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body#new_sessions #content form input[type=submit]:active, body#new_sessions #content form input[type=submit]:active:visited {
+body#new_sessions #content form input[type=submit]:active, body#new_sessions #content form input[type=submit]:active:visited, body.registrations #content form input[type=submit]:active, body.registrations #content form input[type=submit]:active:visited {
   color: #222222;
 }
-/* line 198, ../../app/stylesheets/screen.sass */
-body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=password] {
+/* line 199, ../../app/stylesheets/screen.sass */
+body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=password], body.registrations #content form input[type=email], body.registrations #content form input[type=password] {
   width: 97%;
   font-size: 2em;
   margin: 0;
-  margin-bottom: 0.3em;
-}
-/* line 204, ../../app/stylesheets/screen.sass */
-body#new_sessions #content form p {
   margin-bottom: 0.3em;
 }
 
 /* line 208, ../../app/stylesheets/screen.sass */
-body.registrations #content {
-  display: inline;
-  float: left;
-  margin-right: 0;
-  width: 470px;
-  display: inline;
-  float: left;
-  position: relative;
-  margin: 0 -220px 1.5em 220px;
-  border: 12px solid #dddddd;
-  border-left: 36px solid #dddddd;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 1em 1.2em;
-}
-/* line 147, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_grid.scss */
-* html body.registrations #content {
-  overflow-x: hidden;
-}
-/* line 219, ../../app/stylesheets/screen.sass */
-body.registrations #content h2 {
-  margin-bottom: 0.3em;
-}
-/* line 18, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form label {
-  font-weight: bold;
-}
-/* line 19, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form fieldset {
-  padding: 1.4em;
-  margin: 0 0 1.5em 0;
-}
-/* line 20, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form legend {
-  font-weight: bold;
-  font-size: 1.2em;
-}
-/* line 26, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form input.text, body.registrations #content form input.title, body.registrations #content form input[type=email], body.registrations #content form input[type=text], body.registrations #content form input[type=password] {
-  margin: 0.5em 0;
-  background-color: white;
-  padding: 5px;
-}
-/* line 27, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form input.title {
-  font-size: 1.5em;
-}
-/* line 29, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form textarea {
-  margin: 0.5em 0;
-  padding: 5px;
-}
-/* line 30, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form select {
-  margin: 0.5em 0;
-}
-/* line 55, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form fieldset {
-  border: 1px solid #cccccc;
-}
-/* line 58, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form input.text, body.registrations #content form input.title, body.registrations #content form input[type=email], body.registrations #content form input[type=text], body.registrations #content form input[type=password], body.registrations #content form textarea {
-  background-color: #fff;
-  border: 1px solid #bbbbbb;
-}
-/* line 61, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form input.text:focus, body.registrations #content form input.title:focus, body.registrations #content form input[type=email]:focus, body.registrations #content form input[type=text]:focus, body.registrations #content form input[type=password]:focus, body.registrations #content form textarea:focus {
-  border: 1px solid #666666;
-}
-/* line 65, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form select {
-  background-color: #fff;
-  border-width: 1px;
-  border-style: solid;
-}
-/* line 44, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form input.text, body.registrations #content form input.title, body.registrations #content form input[type=email], body.registrations #content form input[type=text], body.registrations #content form input[type=password] {
-  width: 300px;
-}
-/* line 46, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/compass-0.11.3/frameworks/blueprint/stylesheets/blueprint/_form.scss */
-body.registrations #content form textarea {
-  width: 390px;
-  height: 250px;
-}
-/* line 224, ../../app/stylesheets/screen.sass */
-body.registrations #content form input[type=submit] {
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -o-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -khtml-border-radius: 6px;
-  border-radius: 6px;
-  font-size: 18px;
-  line-height: 1.2em;
-  padding: 0.3em 1em;
-  border-width: 1px;
-  background-color: white;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(10%, #ffffff), color-stop(50%, #e6e6e6), color-stop(50%, #dfdfdf), color-stop(100%, #f8f8f8));
-  background-image: -webkit-linear-gradient(#ffffff, #ffffff 10%, #e6e6e6 50%, #dfdfdf 50%, #f8f8f8);
-  background-image: -moz-linear-gradient(#ffffff, #ffffff 10%, #e6e6e6 50%, #dfdfdf 50%, #f8f8f8);
-  background-image: -o-linear-gradient(#ffffff, #ffffff 10%, #e6e6e6 50%, #dfdfdf 50%, #f8f8f8);
-  background-image: -ms-linear-gradient(#ffffff, #ffffff 10%, #e6e6e6 50%, #dfdfdf 50%, #f8f8f8);
-  background-image: linear-gradient(#ffffff, #ffffff 10%, #e6e6e6 50%, #dfdfdf 50%, #f8f8f8);
-  border-color: #c8c8c8;
-  text-shadow: white 0px 1px 1px;
-  -moz-box-shadow: rgba(255, 255, 255, 0.933) 0 0 0.1em 1px inset;
-  -webkit-box-shadow: rgba(255, 255, 255, 0.933) 0 0 0.1em 1px inset;
-  -o-box-shadow: rgba(255, 255, 255, 0.933) 0 0 0.1em 1px inset;
-  box-shadow: rgba(255, 255, 255, 0.933) 0 0 0.1em 1px inset;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding;
-  -o-background-clip: padding-box;
-  -ms-background-clip: padding-box;
-  -khtml-background-clip: padding-box;
-  background-clip: padding-box;
-  float: right;
+body#new_sessions #content form {
   margin-bottom: 1em;
 }
-/* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body.registrations #content form input[type=submit], body.registrations #content form input[type=submit]:visited {
-  color: #222222;
-}
-/* line 31, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body.registrations #content form input[type=submit]:hover, body.registrations #content form input[type=submit]:focus {
-  background-color: white;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(10%, #ffffff), color-stop(50%, #dfdfdf), color-stop(50%, #d7d7d7), color-stop(100%, #f1f1f1));
-  background-image: -webkit-linear-gradient(#ffffff, #ffffff 10%, #dfdfdf 50%, #d7d7d7 50%, #f1f1f1);
-  background-image: -moz-linear-gradient(#ffffff, #ffffff 10%, #dfdfdf 50%, #d7d7d7 50%, #f1f1f1);
-  background-image: -o-linear-gradient(#ffffff, #ffffff 10%, #dfdfdf 50%, #d7d7d7 50%, #f1f1f1);
-  background-image: -ms-linear-gradient(#ffffff, #ffffff 10%, #dfdfdf 50%, #d7d7d7 50%, #f1f1f1);
-  background-image: linear-gradient(#ffffff, #ffffff 10%, #dfdfdf 50%, #d7d7d7 50%, #f1f1f1);
-  border-color: silver;
-  text-shadow: white 0px 1px 1px;
-}
-/* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body.registrations #content form input[type=submit]:hover, body.registrations #content form input[type=submit]:hover:visited, body.registrations #content form input[type=submit]:focus, body.registrations #content form input[type=submit]:focus:visited {
-  color: #222222;
-}
-/* line 36, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body.registrations #content form input[type=submit]:active {
-  background-color: white;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dfdfdf), color-stop(30%, #e4e4e4), color-stop(50%, #dadada), color-stop(50%, #d2d2d2), color-stop(100%, #f3f3f3));
-  background-image: -webkit-linear-gradient(#dfdfdf, #e4e4e4 30%, #dadada 50%, #d2d2d2 50%, #f3f3f3);
-  background-image: -moz-linear-gradient(#dfdfdf, #e4e4e4 30%, #dadada 50%, #d2d2d2 50%, #f3f3f3);
-  background-image: -o-linear-gradient(#dfdfdf, #e4e4e4 30%, #dadada 50%, #d2d2d2 50%, #f3f3f3);
-  background-image: -ms-linear-gradient(#dfdfdf, #e4e4e4 30%, #dadada 50%, #d2d2d2 50%, #f3f3f3);
-  background-image: linear-gradient(#dfdfdf, #e4e4e4 30%, #dadada 50%, #d2d2d2 50%, #f3f3f3);
-  border-color: #b8b8b8;
-  text-shadow: white 0px -1px -1px;
-  -moz-box-shadow: #c8c8c8 0 0.08em 0.2em 1px inset;
-  -webkit-box-shadow: #c8c8c8 0 0.08em 0.2em 1px inset;
-  -o-box-shadow: #c8c8c8 0 0.08em 0.2em 1px inset;
-  box-shadow: #c8c8c8 0 0.08em 0.2em 1px inset;
-}
-/* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body.registrations #content form input[type=submit]:active, body.registrations #content form input[type=submit]:active:visited {
-  color: #222222;
-}
-/* line 229, ../../app/stylesheets/screen.sass */
-body.registrations #content form input[type=email], body.registrations #content form input[type=password] {
-  width: 97%;
-  font-size: 2em;
-  margin: 0;
+/* line 210, ../../app/stylesheets/screen.sass */
+body#new_sessions #content form p {
   margin-bottom: 0.3em;
 }
-/* line 235, ../../app/stylesheets/screen.sass */
+
+/* line 216, ../../app/stylesheets/screen.sass */
+body.registrations #content form input[type=submit] {
+  margin-bottom: 1em;
+}
+/* line 219, ../../app/stylesheets/screen.sass */
 body.registrations #content form i {
   margin-bottom: 0;
   font-size: 0.8em;
 }
-/* line 239, ../../app/stylesheets/screen.sass */
+/* line 223, ../../app/stylesheets/screen.sass */
 body.registrations #content h3 {
   clear: right;
   border-top: 1px dashed #cccccc;
   padding-top: 1em;
+}
+
+/* line 231, ../../app/stylesheets/screen.sass */
+body#edit_registrations #content .wrap, body#update_registrations #content .wrap {
+  padding-top: 2.8em;
+  padding-bottom: 2.8em;
 }

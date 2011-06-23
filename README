@@ -18,6 +18,8 @@ Completed TODO
 - Add haml/compass functionality (done).
 - Add unique id to body for views. (done, see application_helpers.rb)
 - Theme authentication login/logout pages (done).
+- On sign up page, the float: right of the button causes excessive whitespace at
+  bottom of box. (completed with vertical centering)
 
 Won't Fix TODO
 --------------

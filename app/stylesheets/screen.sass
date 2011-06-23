@@ -165,7 +165,8 @@ body#home_pages
 //  #content > h2
 //    font-family: $formal-font-family
 
-body#new_sessions
+//Base styles for information in box
+body#new_sessions, body.registrations
   #content
     //This part of styling is the same as the placeholder
     +column($blueprint-grid-columns / 2, true)
@@ -179,19 +180,19 @@ body#new_sessions
       width: $placeholder-wrap-width
       //These are porportional dimensions of a real cd case
       height:  $placeholder-wrap-width * 5.5/5.75 
+      min-height:  $placeholder-wrap-width * 5.5/5.75 
       display: table-cell
       vertical-align: middle
       //text-align: center
 
       +box-sizing(border-box)
-      padding: 0 3em
+      padding: 0em 3em
 
     h2
       margin-bottom: 0.3em
+
     form
-      //+showgrid
       +blueprint-form
-      margin-bottom: 1em
       input[type=submit]
         +fancy-button(#eee)
         float: right
@@ -201,37 +202,20 @@ body#new_sessions
         font-size: 2em
         margin: 0
         margin-bottom: 0.3em
+
+body#new_sessions
+  #content
+    form
+      margin-bottom: 1em
       p
         margin-bottom: 0.3em
 
 body.registrations
   #content
-    //This part of styling is the same as the placeholder
-    +column($blueprint-grid-columns / 2, true)
-    //Push the column 5.5 columns to the right to center it on the page.
-    +push(5.5)
-    border: 12px solid #ddd
-    border-left: 36px solid #ddd
-
-    +box-sizing(border-box)
-    padding: 1em 1.2em
-
-    h2
-      margin-bottom: 0.3em
     form
-      //+showgrid
-      +blueprint-form
       input[type=submit]
-        +fancy-button(#eee)
-        float: right
         //Create spacing between button and dashed border of h3
         margin-bottom: 1em
-      input[type=email], input[type=password]
-        //We can't use 100% because padding in the input box pushes width out further
-        width: 97%
-        font-size: 2em
-        margin: 0
-        margin-bottom: 0.3em
       i
         margin-bottom: 0
         font-size: 0.8em
@@ -241,6 +225,12 @@ body.registrations
       //Fake a separator between the form and this new section
       border-top: 1px dashed #ccc
       padding-top: 1em
+
+body#edit_registrations, body#update_registrations
+  #content
+    .wrap
+      padding-top: 2.8em
+      padding-bottom: 2.8em
     
 
 
