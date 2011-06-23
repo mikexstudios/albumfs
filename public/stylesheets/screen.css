@@ -710,7 +710,20 @@ body #header .navigation ul li.last {
 body #header .navigation ul li {
   margin-left: 1em;
 }
-/* line 121, ../../app/stylesheets/screen.sass */
+/* line 120, ../../app/stylesheets/screen.sass */
+body #header .navigation ul li a {
+  color: #333333;
+  text-decoration: none;
+}
+/* line 123, ../../app/stylesheets/screen.sass */
+body #header .navigation ul li a:visited {
+  color: #333333;
+}
+/* line 125, ../../app/stylesheets/screen.sass */
+body #header .navigation ul li a:hover {
+  color: red;
+}
+/* line 129, ../../app/stylesheets/screen.sass */
 body #content {
   display: inline;
   float: left;
@@ -722,15 +735,15 @@ body #content {
   overflow-x: hidden;
 }
 
-/* line 125, ../../app/stylesheets/screen.sass */
+/* line 133, ../../app/stylesheets/screen.sass */
 body#home_pages #header {
   display: none;
 }
-/* line 127, ../../app/stylesheets/screen.sass */
+/* line 135, ../../app/stylesheets/screen.sass */
 body#home_pages #content {
   margin-top: 3em;
 }
-/* line 129, ../../app/stylesheets/screen.sass */
+/* line 137, ../../app/stylesheets/screen.sass */
 body#home_pages #placeholder {
   display: inline;
   float: left;
@@ -747,7 +760,7 @@ body#home_pages #placeholder {
 * html body#home_pages #placeholder {
   overflow-x: hidden;
 }
-/* line 140, ../../app/stylesheets/screen.sass */
+/* line 148, ../../app/stylesheets/screen.sass */
 body#home_pages #placeholder .wrap {
   width: 470px;
   height: 449.565px;
@@ -755,17 +768,17 @@ body#home_pages #placeholder .wrap {
   vertical-align: middle;
   text-align: center;
 }
-/* line 149, ../../app/stylesheets/screen.sass */
+/* line 157, ../../app/stylesheets/screen.sass */
 body#home_pages #placeholder .wrap .logo {
   font-size: 5em;
 }
-/* line 151, ../../app/stylesheets/screen.sass */
+/* line 159, ../../app/stylesheets/screen.sass */
 body#home_pages #placeholder .wrap p {
   font-size: 2em;
   margin-bottom: 0;
 }
 
-/* line 161, ../../app/stylesheets/screen.sass */
+/* line 169, ../../app/stylesheets/screen.sass */
 body#new_sessions #content {
   display: inline;
   float: left;
@@ -782,7 +795,7 @@ body#new_sessions #content {
 * html body#new_sessions #content {
   overflow-x: hidden;
 }
-/* line 169, ../../app/stylesheets/screen.sass */
+/* line 177, ../../app/stylesheets/screen.sass */
 body#new_sessions #content .wrap {
   width: 470px;
   height: 449.565px;
@@ -794,11 +807,11 @@ body#new_sessions #content .wrap {
   box-sizing: border-box;
   padding: 0 3em;
 }
-/* line 181, ../../app/stylesheets/screen.sass */
+/* line 189, ../../app/stylesheets/screen.sass */
 body#new_sessions #content h2 {
   margin-bottom: 0.3em;
 }
-/* line 183, ../../app/stylesheets/screen.sass */
+/* line 191, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form {
   margin-bottom: 1em;
 }
@@ -863,7 +876,7 @@ body#new_sessions #content form textarea {
   width: 390px;
   height: 250px;
 }
-/* line 187, ../../app/stylesheets/screen.sass */
+/* line 195, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form input[type=submit] {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -936,19 +949,19 @@ body#new_sessions #content form input[type=submit]:active {
 body#new_sessions #content form input[type=submit]:active, body#new_sessions #content form input[type=submit]:active:visited {
   color: #222222;
 }
-/* line 190, ../../app/stylesheets/screen.sass */
+/* line 198, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=password] {
   width: 97%;
   font-size: 2em;
   margin: 0;
   margin-bottom: 0.3em;
 }
-/* line 196, ../../app/stylesheets/screen.sass */
+/* line 204, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form p {
   margin-bottom: 0.3em;
 }
 
-/* line 200, ../../app/stylesheets/screen.sass */
+/* line 208, ../../app/stylesheets/screen.sass */
 body.registrations #content {
   display: inline;
   float: left;
@@ -970,7 +983,7 @@ body.registrations #content {
 * html body.registrations #content {
   overflow-x: hidden;
 }
-/* line 211, ../../app/stylesheets/screen.sass */
+/* line 219, ../../app/stylesheets/screen.sass */
 body.registrations #content h2 {
   margin-bottom: 0.3em;
 }
@@ -1035,7 +1048,7 @@ body.registrations #content form textarea {
   width: 390px;
   height: 250px;
 }
-/* line 216, ../../app/stylesheets/screen.sass */
+/* line 224, ../../app/stylesheets/screen.sass */
 body.registrations #content form input[type=submit] {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -1109,19 +1122,19 @@ body.registrations #content form input[type=submit]:active {
 body.registrations #content form input[type=submit]:active, body.registrations #content form input[type=submit]:active:visited {
   color: #222222;
 }
-/* line 221, ../../app/stylesheets/screen.sass */
+/* line 229, ../../app/stylesheets/screen.sass */
 body.registrations #content form input[type=email], body.registrations #content form input[type=password] {
   width: 97%;
   font-size: 2em;
   margin: 0;
   margin-bottom: 0.3em;
 }
-/* line 227, ../../app/stylesheets/screen.sass */
+/* line 235, ../../app/stylesheets/screen.sass */
 body.registrations #content form i {
   margin-bottom: 0;
   font-size: 0.8em;
 }
-/* line 231, ../../app/stylesheets/screen.sass */
+/* line 239, ../../app/stylesheets/screen.sass */
 body.registrations #content h3 {
   clear: right;
   border-top: 1px dashed #cccccc;

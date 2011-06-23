@@ -117,6 +117,14 @@ body
         float: right
         li
           margin-left: 1em
+          a
+            color: $font-color
+            text-decoration: none
+            &:visited
+              color: $font-color
+            &:hover
+              color: $logo-red
+
 
   #content
     +column($blueprint-grid-columns)
