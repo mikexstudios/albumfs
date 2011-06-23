@@ -92,7 +92,7 @@ body
     border-bottom: 2px solid #ddd
     padding: 0.5em 0 0 0
     margin-bottom: 1em
-    display: none
+    //display: none
     .logo
       //+showgrid
       $logo-columns: floor($blueprint-grid-columns / 4)
@@ -121,35 +121,35 @@ body
   #content
     +column($blueprint-grid-columns)
 
-    
-
-
-
-#placeholder
-  //+showgrid
-  +column($blueprint-grid-columns / 2, true)
-  //Push the column 5.5 columns to the right to center it on the page.
-  +push(5.5)
-
-  border: 12px solid #ddd
-  border-left: 36px solid #ddd
-  //+border-radius(8px)
-  //padding: 130px 0 
-
-  .wrap
-    $placeholder-wrap-width: ($blueprint-grid-width + $blueprint-grid-margin) * ($blueprint-grid-columns / 2) - $blueprint-grid-margin
-    width: $placeholder-wrap-width
-    //These are porportional dimensions of a real cd case
-    height:  $placeholder-wrap-width * 5.5/5.75 
-    display: table-cell
-    vertical-align: middle
-    text-align: center
-
-    .logo
-      font-size: 5em
-    p
-      font-size: 2em
-      margin-bottom: 0
+body#home_pages
+  #header
+    display: none
+  #placeholder
+    //+showgrid
+    +column($blueprint-grid-columns / 2, true)
+    //Push the column 5.5 columns to the right to center it on the page.
+    +push(5.5)
+    margin-top: 3em
+  
+    border: 12px solid #ddd
+    border-left: 36px solid #ddd
+    //+border-radius(8px)
+    //padding: 130px 0 
+  
+    .wrap
+      $placeholder-wrap-width: ($blueprint-grid-width + $blueprint-grid-margin) * ($blueprint-grid-columns / 2) - $blueprint-grid-margin
+      width: $placeholder-wrap-width
+      //These are porportional dimensions of a real cd case
+      height:  $placeholder-wrap-width * 5.5/5.75 
+      display: table-cell
+      vertical-align: middle
+      text-align: center
+  
+      .logo
+        font-size: 5em
+      p
+        font-size: 2em
+        margin-bottom: 0
       
 
 //body.sessions
