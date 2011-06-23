@@ -166,7 +166,7 @@ body#home_pages
 //    font-family: $formal-font-family
 
 //Base styles for information in box
-body#new_sessions, body.registrations
+body#new_sessions, body.registrations, body.passwords
   #content
     //This part of styling is the same as the placeholder
     +column($blueprint-grid-columns / 2, true)
@@ -202,6 +202,8 @@ body#new_sessions, body.registrations
         font-size: 2em
         margin: 0
         margin-bottom: 0.3em
+      p
+        margin-bottom: 0.3em
 
 body#new_sessions
   #content
@@ -232,6 +234,12 @@ body#edit_registrations, body#update_registrations
       padding-top: 2.8em
       padding-bottom: 2.8em
     
+body#new_passwords, body#create_passwords
+  #content
+    form
+      margin-bottom: 1.3em
+      input[type=submit]
+        float: none
 
 
 
