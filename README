@@ -6,6 +6,7 @@ TODO
 - Use slugs on artist, album models (https://github.com/norman/friendly_id)
 - Populate database with information from 3rd party. Get the top N artists in
   the charts.
+- Set page title on devise auth pages. May have to start building own templates.
 
 
 Completed TODO

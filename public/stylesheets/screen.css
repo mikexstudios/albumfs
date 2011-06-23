@@ -727,6 +727,10 @@ body#home_pages #header {
   display: none;
 }
 /* line 127, ../../app/stylesheets/screen.sass */
+body#home_pages #content {
+  margin-top: 3em;
+}
+/* line 129, ../../app/stylesheets/screen.sass */
 body#home_pages #placeholder {
   display: inline;
   float: left;
@@ -736,7 +740,6 @@ body#home_pages #placeholder {
   float: left;
   position: relative;
   margin: 0 -220px 1.5em 220px;
-  margin-top: 3em;
   border: 12px solid #dddddd;
   border-left: 36px solid #dddddd;
 }
@@ -744,7 +747,7 @@ body#home_pages #placeholder {
 * html body#home_pages #placeholder {
   overflow-x: hidden;
 }
-/* line 139, ../../app/stylesheets/screen.sass */
+/* line 140, ../../app/stylesheets/screen.sass */
 body#home_pages #placeholder .wrap {
   width: 470px;
   height: 449.565px;
@@ -752,17 +755,17 @@ body#home_pages #placeholder .wrap {
   vertical-align: middle;
   text-align: center;
 }
-/* line 148, ../../app/stylesheets/screen.sass */
+/* line 149, ../../app/stylesheets/screen.sass */
 body#home_pages #placeholder .wrap .logo {
   font-size: 5em;
 }
-/* line 150, ../../app/stylesheets/screen.sass */
+/* line 151, ../../app/stylesheets/screen.sass */
 body#home_pages #placeholder .wrap p {
   font-size: 2em;
   margin-bottom: 0;
 }
 
-/* line 160, ../../app/stylesheets/screen.sass */
+/* line 161, ../../app/stylesheets/screen.sass */
 body#new_sessions #content {
   display: inline;
   float: left;
@@ -779,7 +782,7 @@ body#new_sessions #content {
 * html body#new_sessions #content {
   overflow-x: hidden;
 }
-/* line 168, ../../app/stylesheets/screen.sass */
+/* line 169, ../../app/stylesheets/screen.sass */
 body#new_sessions #content .wrap {
   width: 470px;
   height: 449.565px;
@@ -791,11 +794,11 @@ body#new_sessions #content .wrap {
   box-sizing: border-box;
   padding: 0 3em;
 }
-/* line 180, ../../app/stylesheets/screen.sass */
+/* line 181, ../../app/stylesheets/screen.sass */
 body#new_sessions #content h2 {
   margin-bottom: 0.3em;
 }
-/* line 182, ../../app/stylesheets/screen.sass */
+/* line 183, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form {
   margin-bottom: 1em;
 }
@@ -860,7 +863,7 @@ body#new_sessions #content form textarea {
   width: 390px;
   height: 250px;
 }
-/* line 186, ../../app/stylesheets/screen.sass */
+/* line 187, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form input[type=submit] {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -933,19 +936,19 @@ body#new_sessions #content form input[type=submit]:active {
 body#new_sessions #content form input[type=submit]:active, body#new_sessions #content form input[type=submit]:active:visited {
   color: #222222;
 }
-/* line 189, ../../app/stylesheets/screen.sass */
+/* line 190, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=password] {
   width: 97%;
   font-size: 2em;
   margin: 0;
   margin-bottom: 0.3em;
 }
-/* line 195, ../../app/stylesheets/screen.sass */
+/* line 196, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form p {
   margin-bottom: 0.3em;
 }
 
-/* line 199, ../../app/stylesheets/screen.sass */
+/* line 200, ../../app/stylesheets/screen.sass */
 body.registrations #content {
   display: inline;
   float: left;
@@ -967,7 +970,7 @@ body.registrations #content {
 * html body.registrations #content {
   overflow-x: hidden;
 }
-/* line 210, ../../app/stylesheets/screen.sass */
+/* line 211, ../../app/stylesheets/screen.sass */
 body.registrations #content h2 {
   margin-bottom: 0.3em;
 }
@@ -1032,7 +1035,7 @@ body.registrations #content form textarea {
   width: 390px;
   height: 250px;
 }
-/* line 215, ../../app/stylesheets/screen.sass */
+/* line 216, ../../app/stylesheets/screen.sass */
 body.registrations #content form input[type=submit] {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -1106,19 +1109,19 @@ body.registrations #content form input[type=submit]:active {
 body.registrations #content form input[type=submit]:active, body.registrations #content form input[type=submit]:active:visited {
   color: #222222;
 }
-/* line 220, ../../app/stylesheets/screen.sass */
+/* line 221, ../../app/stylesheets/screen.sass */
 body.registrations #content form input[type=email], body.registrations #content form input[type=password] {
   width: 97%;
   font-size: 2em;
   margin: 0;
   margin-bottom: 0.3em;
 }
-/* line 226, ../../app/stylesheets/screen.sass */
+/* line 227, ../../app/stylesheets/screen.sass */
 body.registrations #content form i {
   margin-bottom: 0;
   font-size: 0.8em;
 }
-/* line 230, ../../app/stylesheets/screen.sass */
+/* line 231, ../../app/stylesheets/screen.sass */
 body.registrations #content h3 {
   clear: right;
   border-top: 1px dashed #cccccc;
