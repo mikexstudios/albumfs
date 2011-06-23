@@ -27,9 +27,12 @@
         %h1.logo <a href="">ALBUM<span class="fs">FS</span></a>
         .navigation
           %ul
-            %li.search Search
-            %li.signup Signup
-            %li.login Login
+            %li.search
+              = link_to 'Search', page_path('home')
+            %li.signup 
+              = link_to 'Signup', new_user_registration_path
+            %li.login
+              = link_to 'Login', new_user_session_path
 
       #content
         .wrap
