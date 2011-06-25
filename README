@@ -6,6 +6,8 @@ TODO
 - Use slugs on artist, album models (https://github.com/norman/friendly_id)
 - Populate database with information from 3rd party. Get the top N artists in
   the charts.
+  1. Use an API to get top N artists from charts. Then save into database.
+  2. Write script that takes artists from database, then gets albums from that artist.
 - Set page title on devise auth pages. May have to start building own templates.
 
 

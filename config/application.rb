@@ -43,6 +43,9 @@ module Albumfs
     config.generators do |g|
         g.template_engine :haml
     end
+
+    # For choices, easy configuration gem
+    config.from_file 'settings.yml'
     
   end
 end

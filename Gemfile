@@ -40,6 +40,8 @@ gem 'high_voltage', '~> 0.9.4' #static pages
 gem 'devise', '~> 1.3.4' #must be required before rails_admin
 gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 
+gem 'choices', '~> 0.2.4' #for configuration
+
 group :development do
   gem 'rspec-rails', '~> 2.6.1'
   gem 'annotate', '~> 2.4.0'

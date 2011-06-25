@@ -1,0 +1,18 @@
+defaults: &defaults
+  lastfm:
+    #key: <%= ENV['LASTFM_KEY'] %>
+    #secret: <%= ENV['LASTFM_SECRET'] %>
+    key: c6feef31bfc45e16a850e1f60b7902f4
+    secret: fb3653061c50e1b8e001ffbd8d83d708
+
+development:
+  <<: *defaults
+
+production:
+  <<: *defaults
+
+test: &test
+  <<: *defaults
+
+cucumber:
+  <<: *test
