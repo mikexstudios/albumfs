@@ -45,6 +45,9 @@ gem 'choices', '~> 0.2.4' #for configuration
 group :development do
   gem 'rspec-rails', '~> 2.6.1'
   gem 'annotate', '~> 2.4.0'
+
+  #For XML parsing, used by lastfm scripts.
+  gem 'nokogiri', '~> 1.4.6'
 end
 
 group :test do
