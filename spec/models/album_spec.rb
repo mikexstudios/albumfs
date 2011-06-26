@@ -4,6 +4,7 @@ describe Album do
   pending "add some examples to (or delete) #{__FILE__}"
 end
 
+
 # == Schema Information
 #
 # Table name: albums
@@ -14,5 +15,6 @@ end
 #  release_date :date
 #  created_at   :datetime
 #  updated_at   :datetime
+#  mbid         :string(255)
 #
 

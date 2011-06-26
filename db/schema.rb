@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110626221039) do
+ActiveRecord::Schema.define(:version => 20110626230542) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -51,6 +51,7 @@ ActiveRecord::Schema.define(:version => 20110626221039) do
     t.date     "release_date"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "mbid"
   end
 
   add_index "albums", ["artist_id"], :name => "index_albums_on_artist_id"
