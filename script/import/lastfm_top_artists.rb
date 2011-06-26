@@ -2,7 +2,6 @@
 require File.expand_path('../../../config/environment.rb', __FILE__)
 
 require 'open-uri'
-require 'nokogiri'
 #require 'ruby-debug'
 
 API_CALL = 'http://ws.audioscrobbler.com/2.0/?method=chart.gettopartists&api_key=%s&limit=10'
