@@ -4,6 +4,7 @@ class Artist < ActiveRecord::Base
   has_many :albums
 end
 
+
 # == Schema Information
 #
 # Table name: artists
@@ -12,5 +13,6 @@ end
 #  name       :string(255)
 #  created_at :datetime
 #  updated_at :datetime
+#  mbid       :string(255)
 #
 

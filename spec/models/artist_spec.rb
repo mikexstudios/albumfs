@@ -4,6 +4,7 @@ describe Artist do
   pending "add some examples to (or delete) #{__FILE__}"
 end
 
+
 # == Schema Information
 #
 # Table name: artists
@@ -12,5 +13,6 @@ end
 #  name       :string(255)
 #  created_at :datetime
 #  updated_at :datetime
+#  mbid       :string(255)
 #
 
