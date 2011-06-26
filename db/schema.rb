@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110626230542) do
+ActiveRecord::Schema.define(:version => 20110626231135) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -47,7 +47,7 @@ ActiveRecord::Schema.define(:version => 20110626230542) do
 
   create_table "albums", :force => true do |t|
     t.integer  "artist_id"
-    t.string   "name"
+    t.string   "title"
     t.date     "release_date"
     t.datetime "created_at"
     t.datetime "updated_at"
