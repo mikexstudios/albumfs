@@ -51,6 +51,11 @@ group :development do
 
   gem 'ruby-debug19'
   gem 'irbtools'
+
+  #For querying discogs api
+  #gem 'rest-client', '~> 1.6.3'
+  #gem 'rest-client', :git => 'git://github.com/archiloque/rest-client.git'
+  gem 'rbrainz', '~> 0.5.2'
 end
 
 group :test do
