@@ -48,6 +48,8 @@ group :development do
 
   #For XML parsing, used by lastfm scripts.
   gem 'nokogiri', '~> 1.4.6'
+
+  gem 'ruby-debug19'
 end
 
 group :test do
