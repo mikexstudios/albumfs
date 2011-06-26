@@ -50,6 +50,7 @@ group :development do
   gem 'nokogiri', '~> 1.4.6'
 
   gem 'ruby-debug19'
+  gem 'irbtools'
 end
 
 group :test do
