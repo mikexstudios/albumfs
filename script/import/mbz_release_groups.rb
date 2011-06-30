@@ -5,6 +5,8 @@ require File.expand_path('../../../config/environment.rb', __FILE__)
 #require 'ruby-debug'
 include MusicBrainz
 
+query  = Webservice::Query.new
+
 # With the ArtistInclude object we can control what
 # kind of information the MusicBrainz server will
 # include in its answer.
@@ -18,7 +20,6 @@ artist_includes = Webservice::ArtistIncludes.new(
   :label_rels   => true,
   :url_rels     => true
 )
-query  = Webservice::Query.new
 
 Artist.find_each do |artist|
   data = query.get_artist_by_id(artist.mbid, artist_includes)
@@ -35,4 +36,6 @@ Artist.find_each do |artist|
     #date. Then pick one of the releases (figure out a consistent way of doing
     #this) and get the tracks for those releases.
   end
+
+  sleep 1 #sec, throttle API
 end

@@ -4,11 +4,8 @@ TODO
 - Add ability to search through albums / songs / artists.
 - Search box on home page.
 - Use slugs on artist, album models (https://github.com/norman/friendly_id)
-- Populate database with information from 3rd party. Get the top N artists in
-  the charts.
-  1. Use an API to get top N artists from charts. Then save into database.
-  2. Write script that takes artists from database, then gets albums from that artist.
 - Set page title on devise auth pages. May have to start building own templates.
+- Use authorization to secure admin site.
 
 
 Completed TODO
@@ -22,6 +19,10 @@ Completed TODO
 - Theme authentication login/logout pages (done).
 - On sign up page, the float: right of the button causes excessive whitespace at
   bottom of box. (completed with vertical centering)
+- Populate database with information from 3rd party. Get the top N artists in
+  the charts.
+  1. Use an API to get top N artists from charts. Then save into database.
+  2. Write script that takes artists from database, then gets albums from that artist.
 
 Won't Fix TODO
 --------------
