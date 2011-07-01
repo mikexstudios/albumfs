@@ -58,6 +58,7 @@ group :development do
   gem 'rbrainz', '~> 0.5.2'
 
   gem 'yaml_db', '~> 0.2.1' #export and restore database data
+  gem 'taps', '~> 0.3.23' #for import/export heroku
 end
 
 group :test do
