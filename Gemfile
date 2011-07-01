@@ -56,6 +56,8 @@ group :development do
   #gem 'rest-client', '~> 1.6.3'
   #gem 'rest-client', :git => 'git://github.com/archiloque/rest-client.git'
   gem 'rbrainz', '~> 0.5.2'
+
+  gem 'yaml_db', '~> 0.2.1' #export and restore database data
 end
 
 group :test do

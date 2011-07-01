@@ -177,6 +177,7 @@ GEM
       rack (>= 1.0)
       rack-test (>= 0.5.3)
     wirb (0.3.2)
+    yaml_db (0.2.1)
     zucker (11)
 
 PLATFORMS
@@ -201,3 +202,4 @@ DEPENDENCIES
   ruby-debug19
   sqlite3-ruby
   webrat (~> 0.7.3)
+  yaml_db (~> 0.2.1)
