@@ -42,6 +42,8 @@ gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
 
 gem 'choices', '~> 0.2.4' #for configuration
 
+gem 'tanker', '~> 1.1.3' #for IndexTank search
+
 group :development do
   gem 'rspec-rails', '~> 2.6.1'
   gem 'annotate', '~> 2.4.0'
