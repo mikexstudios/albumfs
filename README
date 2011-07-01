@@ -2,6 +2,10 @@ TODO
 ----
 
 - Add ability to search through albums / songs / artists.
+  Setup indextank for search.
+  Use: https://github.com/kidpollo/tanker
+- Add pages for user to submit new albums / artists. 
+  Need to think through the process of doing this carefully.
 - Search box on home page.
 - Use slugs on artist, album models (https://github.com/norman/friendly_id)
 - Set page title on devise auth pages. May have to start building own templates.
