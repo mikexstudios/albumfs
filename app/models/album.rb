@@ -8,7 +8,7 @@ class Album < ActiveRecord::Base
   include Tanker
   tankit 'albumfs' do
     indexes :title
-    indexes :artist_name 
+    indexes :artist_name do artist.name end
     indexes :track_names do
       tracks.map { |track| track.title }
     end

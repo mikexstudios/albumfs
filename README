@@ -13,6 +13,9 @@ TODO
 - Save database dump once we populate the database correctly.
   See: https://github.com/ludicast/yaml_db
   And: http://devcenter.heroku.com/articles/taps
+- Check optional/required model fields.
+- Look into scoring functions for optimizing search
+  (http://indextank.com/documentation/ruby-client#document-variables)
 
 
 Completed TODO
