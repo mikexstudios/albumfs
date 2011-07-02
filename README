@@ -2,8 +2,6 @@ TODO
 ----
 
 - Add ability to search through albums / songs / artists.
-  Setup indextank for search.
-  Use: https://github.com/kidpollo/tanker
 - Add pages for user to submit new albums / artists. 
   Need to think through the process of doing this carefully.
 - Search box on home page.
@@ -34,6 +32,8 @@ Completed TODO
   the charts.
   1. Use an API to get top N artists from charts. Then save into database.
   2. Write script that takes artists from database, then gets albums from that artist.
+- Setup indextank for search.
+  Use: https://github.com/kidpollo/tanker
 
 Won't Fix TODO
 --------------
