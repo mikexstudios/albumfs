@@ -44,6 +44,8 @@ gem 'choices', '~> 0.2.4' #for configuration
 
 gem 'tanker', '~> 1.1.3' #for IndexTank search
 
+gem 'will_paginate', '~> 2.3.15'
+
 group :development do
   gem 'rspec-rails', '~> 2.6.1'
   gem 'annotate', '~> 2.4.0'

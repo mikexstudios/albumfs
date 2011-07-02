@@ -9,6 +9,7 @@ TODO
 - Search box on home page.
 - Use slugs on artist, album models (https://github.com/norman/friendly_id)
 - Set page title on devise auth pages. May have to start building own templates.
+  Can use a hack to set the title by detecting the controller and action.
 - Use authorization to secure admin site.
 - Save database dump once we populate the database correctly.
   See: https://github.com/ludicast/yaml_db
