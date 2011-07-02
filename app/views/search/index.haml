@@ -1,0 +1,13 @@
+=title "ALBUMFS - handpicked directory of free music", include_base_title = false
+
+#placeholder
+  .wrap
+    -#%h1.logo ALBUM<span class="fs">FS</span>
+    -#%p handpicked directory of free music
+
+    =form_tag('/search', :class => 'search', :method => :get) do
+      -#=label_tag 'search', 'Search'
+      -# NOTE: We purposely don't autofocus on the field so that user can read
+      -# the placeholder.
+      =text_field_tag 'search', value = nil, :placeholder => 'Search for an Artist, Album, or Song...'
+      =submit_tag 'Search'
