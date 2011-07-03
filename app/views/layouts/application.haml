@@ -24,11 +24,13 @@
   %body{ :id => "#{location_name}", :class => "bp #{controller.controller_name}" }
     #container
       #header
-        %h1.logo <a href="">ALBUM<span class="fs">FS</span></a>
+        %h1.logo <a href="#{root_path}">ALBUM<span class="fs">FS</span></a>
         .navigation
           %ul
-            %li.search
-              = link_to 'Search', root_path
+            %li.home
+              = link_to 'Home', root_path
+            -#%li.search
+            -#  = link_to 'Search', root_path
             - if signed_in?
               %li.account 
                 = link_to 'Account', edit_user_registration_path
