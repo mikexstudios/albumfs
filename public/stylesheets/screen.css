@@ -59,7 +59,7 @@ a img {
 
 /* incase an inverted custom gradient isn't specified */
 /* line 177, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class, body#home_pages #placeholder form.search input[type=submit], body#new_sessions #content form input[type=submit], body.registrations #content form input[type=submit], body.passwords #content form input[type=submit] {
+.fancy-button-reset-base-class, body#home_pages #placeholder form.search input[type=submit], body#index_search #previous_search form.search input[type=submit], body#new_sessions #content form input[type=submit], body.registrations #content form input[type=submit], body.passwords #content form input[type=submit] {
   font-family: "Lucida Grande", Lucida, Arial, sans-serif;
   background: url('/images/button_bg.png?1308776752') repeat-x bottom left;
   margin: 0;
@@ -72,12 +72,12 @@ a img {
   font-weight: bold;
 }
 /* line 165, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class::-moz-focus-inner, body#home_pages #placeholder form.search input[type=submit]::-moz-focus-inner, body#new_sessions #content form input[type=submit]::-moz-focus-inner, body.registrations #content form input[type=submit]::-moz-focus-inner, body.passwords #content form input[type=submit]::-moz-focus-inner {
+.fancy-button-reset-base-class::-moz-focus-inner, body#home_pages #placeholder form.search input[type=submit]::-moz-focus-inner, body#index_search #previous_search form.search input[type=submit]::-moz-focus-inner, body#new_sessions #content form input[type=submit]::-moz-focus-inner, body.registrations #content form input[type=submit]::-moz-focus-inner, body.passwords #content form input[type=submit]::-moz-focus-inner {
   border: none;
   padding: 0;
 }
 /* line 168, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class:focus, body#home_pages #placeholder form.search input[type=submit]:focus, body#new_sessions #content form input[type=submit]:focus, body.registrations #content form input[type=submit]:focus, body.passwords #content form input[type=submit]:focus {
+.fancy-button-reset-base-class:focus, body#home_pages #placeholder form.search input[type=submit]:focus, body#index_search #previous_search form.search input[type=submit]:focus, body#new_sessions #content form input[type=submit]:focus, body.registrations #content form input[type=submit]:focus, body.passwords #content form input[type=submit]:focus {
   outline: none;
 }
 
@@ -796,8 +796,9 @@ body#home_pages #placeholder form.search input#q {
   padding: 0.4em 0.5em;
   border: 1px solid #cccccc;
   margin-right: 0.3em;
+  outline: none;
 }
-/* line 179, ../../app/stylesheets/screen.sass */
+/* line 181, ../../app/stylesheets/screen.sass */
 body#home_pages #placeholder form.search input[type=submit] {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -870,7 +871,93 @@ body#home_pages #placeholder form.search input[type=submit]:active, body#home_pa
   color: #222222;
 }
 
-/* line 194, ../../app/stylesheets/screen.sass */
+/* line 187, ../../app/stylesheets/screen.sass */
+body#index_search #previous_search form.search {
+  margin-top: 2em;
+}
+/* line 189, ../../app/stylesheets/screen.sass */
+body#index_search #previous_search form.search input#q {
+  width: 60%;
+  font-size: 1.4em;
+  padding: 0.4em 0.5em;
+  border: 1px solid #cccccc;
+  margin-right: 0.3em;
+  outline: none;
+}
+/* line 197, ../../app/stylesheets/screen.sass */
+body#index_search #previous_search form.search input[type=submit] {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 18px;
+  line-height: 1.2em;
+  padding: 0.3em 1em;
+  border-width: 1px;
+  background-color: white;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(10%, #ffffff), color-stop(50%, #e6e6e6), color-stop(50%, #dfdfdf), color-stop(100%, #f8f8f8));
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 10%, #e6e6e6 50%, #dfdfdf 50%, #f8f8f8);
+  background-image: -moz-linear-gradient(#ffffff, #ffffff 10%, #e6e6e6 50%, #dfdfdf 50%, #f8f8f8);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 10%, #e6e6e6 50%, #dfdfdf 50%, #f8f8f8);
+  background-image: -ms-linear-gradient(#ffffff, #ffffff 10%, #e6e6e6 50%, #dfdfdf 50%, #f8f8f8);
+  background-image: linear-gradient(#ffffff, #ffffff 10%, #e6e6e6 50%, #dfdfdf 50%, #f8f8f8);
+  border-color: #c8c8c8;
+  text-shadow: white 0px 1px 1px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.933) 0 0 0.1em 1px inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.933) 0 0 0.1em 1px inset;
+  -o-box-shadow: rgba(255, 255, 255, 0.933) 0 0 0.1em 1px inset;
+  box-shadow: rgba(255, 255, 255, 0.933) 0 0 0.1em 1px inset;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  -o-background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  background-clip: padding-box;
+}
+/* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
+body#index_search #previous_search form.search input[type=submit], body#index_search #previous_search form.search input[type=submit]:visited {
+  color: #222222;
+}
+/* line 31, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
+body#index_search #previous_search form.search input[type=submit]:hover, body#index_search #previous_search form.search input[type=submit]:focus {
+  background-color: white;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(10%, #ffffff), color-stop(50%, #dfdfdf), color-stop(50%, #d7d7d7), color-stop(100%, #f1f1f1));
+  background-image: -webkit-linear-gradient(#ffffff, #ffffff 10%, #dfdfdf 50%, #d7d7d7 50%, #f1f1f1);
+  background-image: -moz-linear-gradient(#ffffff, #ffffff 10%, #dfdfdf 50%, #d7d7d7 50%, #f1f1f1);
+  background-image: -o-linear-gradient(#ffffff, #ffffff 10%, #dfdfdf 50%, #d7d7d7 50%, #f1f1f1);
+  background-image: -ms-linear-gradient(#ffffff, #ffffff 10%, #dfdfdf 50%, #d7d7d7 50%, #f1f1f1);
+  background-image: linear-gradient(#ffffff, #ffffff 10%, #dfdfdf 50%, #d7d7d7 50%, #f1f1f1);
+  border-color: silver;
+  text-shadow: white 0px 1px 1px;
+}
+/* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
+body#index_search #previous_search form.search input[type=submit]:hover, body#index_search #previous_search form.search input[type=submit]:hover:visited, body#index_search #previous_search form.search input[type=submit]:focus, body#index_search #previous_search form.search input[type=submit]:focus:visited {
+  color: #222222;
+}
+/* line 36, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
+body#index_search #previous_search form.search input[type=submit]:active {
+  background-color: white;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dfdfdf), color-stop(30%, #e4e4e4), color-stop(50%, #dadada), color-stop(50%, #d2d2d2), color-stop(100%, #f3f3f3));
+  background-image: -webkit-linear-gradient(#dfdfdf, #e4e4e4 30%, #dadada 50%, #d2d2d2 50%, #f3f3f3);
+  background-image: -moz-linear-gradient(#dfdfdf, #e4e4e4 30%, #dadada 50%, #d2d2d2 50%, #f3f3f3);
+  background-image: -o-linear-gradient(#dfdfdf, #e4e4e4 30%, #dadada 50%, #d2d2d2 50%, #f3f3f3);
+  background-image: -ms-linear-gradient(#dfdfdf, #e4e4e4 30%, #dadada 50%, #d2d2d2 50%, #f3f3f3);
+  background-image: linear-gradient(#dfdfdf, #e4e4e4 30%, #dadada 50%, #d2d2d2 50%, #f3f3f3);
+  border-color: #b8b8b8;
+  text-shadow: white 0px -1px -1px;
+  -moz-box-shadow: #c8c8c8 0 0.08em 0.2em 1px inset;
+  -webkit-box-shadow: #c8c8c8 0 0.08em 0.2em 1px inset;
+  -o-box-shadow: #c8c8c8 0 0.08em 0.2em 1px inset;
+  box-shadow: #c8c8c8 0 0.08em 0.2em 1px inset;
+}
+/* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
+body#index_search #previous_search form.search input[type=submit]:active, body#index_search #previous_search form.search input[type=submit]:active:visited {
+  color: #222222;
+}
+
+/* line 209, ../../app/stylesheets/screen.sass */
 body#new_sessions #content, body.registrations #content, body.passwords #content {
   display: inline;
   float: left;
@@ -887,7 +974,7 @@ body#new_sessions #content, body.registrations #content, body.passwords #content
 * html body#new_sessions #content, * html body.registrations #content, * html body.passwords #content {
   overflow-x: hidden;
 }
-/* line 202, ../../app/stylesheets/screen.sass */
+/* line 217, ../../app/stylesheets/screen.sass */
 body#new_sessions #content .wrap, body.registrations #content .wrap, body.passwords #content .wrap {
   width: 470px;
   height: 449.565px;
@@ -900,7 +987,7 @@ body#new_sessions #content .wrap, body.registrations #content .wrap, body.passwo
   box-sizing: border-box;
   padding: 0em 3em;
 }
-/* line 215, ../../app/stylesheets/screen.sass */
+/* line 230, ../../app/stylesheets/screen.sass */
 body#new_sessions #content h2, body.registrations #content h2, body.passwords #content h2 {
   margin-bottom: 0.3em;
 }
@@ -965,7 +1052,7 @@ body#new_sessions #content form textarea, body.registrations #content form texta
   width: 390px;
   height: 250px;
 }
-/* line 220, ../../app/stylesheets/screen.sass */
+/* line 235, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form input[type=submit], body.registrations #content form input[type=submit], body.passwords #content form input[type=submit] {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -1038,54 +1125,54 @@ body#new_sessions #content form input[type=submit]:active, body.registrations #c
 body#new_sessions #content form input[type=submit]:active, body#new_sessions #content form input[type=submit]:active:visited, body.registrations #content form input[type=submit]:active, body.registrations #content form input[type=submit]:active:visited, body.passwords #content form input[type=submit]:active, body.passwords #content form input[type=submit]:active:visited {
   color: #222222;
 }
-/* line 223, ../../app/stylesheets/screen.sass */
+/* line 238, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=password], body.registrations #content form input[type=email], body.registrations #content form input[type=password], body.passwords #content form input[type=email], body.passwords #content form input[type=password] {
   width: 97%;
   font-size: 2em;
   margin: 0;
   margin-bottom: 0.3em;
 }
-/* line 229, ../../app/stylesheets/screen.sass */
+/* line 244, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form p, body.registrations #content form p, body.passwords #content form p {
   margin-bottom: 0.3em;
 }
 
-/* line 234, ../../app/stylesheets/screen.sass */
+/* line 249, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form {
   margin-bottom: 1em;
 }
-/* line 236, ../../app/stylesheets/screen.sass */
+/* line 251, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form p {
   margin-bottom: 0.3em;
 }
 
-/* line 242, ../../app/stylesheets/screen.sass */
+/* line 257, ../../app/stylesheets/screen.sass */
 body.registrations #content form input[type=submit] {
   margin-bottom: 1em;
 }
-/* line 245, ../../app/stylesheets/screen.sass */
+/* line 260, ../../app/stylesheets/screen.sass */
 body.registrations #content form i {
   margin-bottom: 0;
   font-size: 0.8em;
 }
-/* line 249, ../../app/stylesheets/screen.sass */
+/* line 264, ../../app/stylesheets/screen.sass */
 body.registrations #content h3 {
   clear: right;
   border-top: 1px dashed #cccccc;
   padding-top: 1em;
 }
 
-/* line 257, ../../app/stylesheets/screen.sass */
+/* line 272, ../../app/stylesheets/screen.sass */
 body#edit_registrations #content .wrap, body#update_registrations #content .wrap {
   padding-top: 2.8em;
   padding-bottom: 2.8em;
 }
 
-/* line 263, ../../app/stylesheets/screen.sass */
+/* line 278, ../../app/stylesheets/screen.sass */
 body#new_passwords #content form, body#create_passwords #content form {
   margin-bottom: 1.3em;
 }
-/* line 265, ../../app/stylesheets/screen.sass */
+/* line 280, ../../app/stylesheets/screen.sass */
 body#new_passwords #content form input[type=submit], body#create_passwords #content form input[type=submit] {
   float: none;
 }

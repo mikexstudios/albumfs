@@ -176,11 +176,26 @@ body#home_pages
         padding: 0.4em 0.5em
         border: 1px solid #ccc
         margin-right: 0.3em
+        //Remove focus glow for webkit based browsers
+        outline: none
       input[type=submit]
         +fancy-button(#eee)
 
 
-//body#index_search
+body#index_search
+  #previous_search
+    form.search
+      margin-top: 2em
+      input#q
+        width: 60%
+        font-size: 1.4em
+        padding: 0.4em 0.5em
+        border: 1px solid #ccc
+        margin-right: 0.3em
+        //Remove focus glow for webkit based browsers
+        outline: none
+      input[type=submit]
+        +fancy-button(#eee)
         
     
       
