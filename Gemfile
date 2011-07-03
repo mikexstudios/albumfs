@@ -61,6 +61,9 @@ group :development do
   #gem 'rest-client', :git => 'git://github.com/archiloque/rest-client.git'
   gem 'rbrainz', '~> 0.5.2'
 
+  #For querying last.fm api
+  gem 'rockstar', '~> 0.6.1'
+
   gem 'yaml_db', '~> 0.2.1' #export and restore database data
   gem 'taps', '~> 0.3.23' #for import/export heroku
 end

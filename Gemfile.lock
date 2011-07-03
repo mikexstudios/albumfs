@@ -80,6 +80,7 @@ GEM
     hashie (1.0.0)
     high_voltage (0.9.4)
     hirb (0.4.5)
+    hpricot (0.8.4)
     i18n (0.5.0)
     interactive_editor (0.0.8)
       spoon (>= 0.0.1)
@@ -137,6 +138,13 @@ GEM
     rdoc (3.6.1)
     rest-client (1.6.3)
       mime-types (>= 1.16)
+    rockstar (0.6.1)
+      activesupport (>= 1.4.2)
+      activesupport (>= 1.4.2)
+      hpricot (>= 0.4.86)
+      hpricot (>= 0.4.86)
+      i18n
+      rake
     rspec (2.6.0)
       rspec-core (~> 2.6.0)
       rspec-expectations (~> 2.6.0)
@@ -212,6 +220,7 @@ DEPENDENCIES
   rails (~> 3.0.8)
   rails_admin!
   rbrainz (~> 0.5.2)
+  rockstar (~> 0.6.1)
   rspec (~> 2.6.0)
   rspec-rails (~> 2.6.1)
   ruby-debug19
