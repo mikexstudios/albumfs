@@ -15,3 +15,16 @@
     =submit_tag 'Search', :name => nil
 
   !=page_entries_info @results, :entry_name => 'result'
+
+#search_results
+  =will_paginate @results
+  %ul.results
+    -@results.each do |album|
+      -# Each result resides in its own li, with the ability for a sub div in each.
+      %li
+        =album.artist.name
+        =album.title
+
+
+
+  =will_paginate @results
