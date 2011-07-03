@@ -2,6 +2,7 @@ class Album < ActiveRecord::Base
   attr_accessible :title, :release_date, :mbid
 
   belongs_to :artist
+  has_one :album_art
   has_many :sources
   has_many :tracks
 
