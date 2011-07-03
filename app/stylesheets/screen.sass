@@ -129,11 +129,19 @@ body
   #content
     +column($blueprint-grid-columns)
 
-body#home_pages, body#index_search
+body#home_pages
+  //Since we display the ALBUMFS logo in the search area, we hide the logo in the 
+  //header. Since the position of the header uses blueprint columns, hiding the
+  //logo messes up the width of the column. Thus, we manually push the navigation
+  //to the right using a float.
   #header
-    display: none
-  #content
-    margin-top: 3em
+    border-bottom: none
+    h1.logo
+      display: none
+    .navigation
+      float: right
+      a
+        color: #999
   #placeholder
     //+showgrid
     +column($blueprint-grid-columns / 2, true)
@@ -160,24 +168,6 @@ body#home_pages, body#index_search
         font-size: 2em
         margin-bottom: 0
 
-
-body#index_search
-  //Since we display the ALBUMFS logo in the search area, we hide the logo in the 
-  //header. Since the position of the header uses blueprint columns, hiding the
-  //logo messes up the width of the column. Thus, we manually push the navigation
-  //to the right using a float.
-  #header
-    display: block
-    border-bottom: none
-    h1.logo
-      display: none
-    .navigation
-      float: right
-      a
-        color: #999
-  #content
-    margin-top: 0
-  #placeholder
     form.search
       margin-top: 2em
       input#q
@@ -188,6 +178,9 @@ body#index_search
         margin-right: 0.3em
       input[type=submit]
         +fancy-button(#eee)
+
+
+//body#index_search
         
     
       
