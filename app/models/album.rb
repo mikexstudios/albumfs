@@ -6,6 +6,10 @@ class Album < ActiveRecord::Base
   has_many :sources
   has_many :tracks
 
+  #WARNING: :build_album_art must ALWAYS validate or else will receive weird error
+  #message and album_art dependency will not be created.
+  before_create :build_album_art
+
   include Tanker
   tankit 'albumfs' do
     indexes :title
