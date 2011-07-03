@@ -4,7 +4,6 @@ TODO
 - Add ability to search through albums / songs / artists.
 - Add pages for user to submit new albums / artists. 
   Need to think through the process of doing this carefully.
-- Search box on home page.
 - Use slugs on artist, album models (https://github.com/norman/friendly_id)
 - Set page title on devise auth pages. May have to start building own templates.
   Can use a hack to set the title by detecting the controller and action.
@@ -17,6 +16,8 @@ TODO
   (http://indextank.com/documentation/ruby-client#document-variables)
 - Expand the main page with more content and links to adding content / how the
   site works / expand description to include streaming.
+- Get album artwork image
+- Display and stylize search results
 
 
 Completed TODO
@@ -37,6 +38,7 @@ Completed TODO
 - Setup indextank for search.
   Use: https://github.com/kidpollo/tanker
 - Add search box to search page.
+- Search box on home page.
 
 Won't Fix TODO
 --------------
