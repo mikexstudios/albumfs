@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110703214233) do
+ActiveRecord::Schema.define(:version => 20110703215306) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -55,6 +55,8 @@ ActiveRecord::Schema.define(:version => 20110703214233) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  add_index "album_arts", ["album_id"], :name => "index_album_arts_on_album_id"
 
   create_table "albums", :force => true do |t|
     t.integer  "artist_id"
