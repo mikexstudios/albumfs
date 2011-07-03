@@ -18,6 +18,11 @@ TODO
   site works / expand description to include streaming.
 - Get album artwork image
 - Display and stylize search results
+- Fix heroku bug where searching for 'the' or '.' gives page looking for doesn't
+  exist.
+- Perhaps populate album tracks with last.fm album.getinfo data instead of
+  musicbrainz data.
+- Get album art from last.fm
 
 
 Completed TODO
