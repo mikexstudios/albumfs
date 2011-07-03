@@ -28,7 +28,7 @@
         .navigation
           %ul
             %li.search
-              = link_to 'Search', page_path('home')
+              = link_to 'Search', root_path
             - if signed_in?
               %li.account 
                 = link_to 'Account', edit_user_registration_path
