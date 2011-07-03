@@ -13,7 +13,7 @@
       -#=label_tag 'search', 'Search'
       -# NOTE: We purposely don't autofocus on the field so that user can read
       -# the placeholder.
-      =text_field_tag 'q', value = nil, :placeholder => 'Search for an Artist, Album, or Song...'
+      =text_field_tag 'q', value = params[:q], :placeholder => 'Search for an Artist, Album, or Song...'
       -# We set the submit name (default was 'commit') to nil so that it does not
       -# get passed along with the search GET params.
       =submit_tag 'Search', :name => nil
