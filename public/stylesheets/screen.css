@@ -778,7 +778,32 @@ body#home_pages #placeholder .wrap p, body#index_search #placeholder .wrap p {
   margin-bottom: 0;
 }
 
-/* line 167, ../../app/stylesheets/screen.sass */
+/* line 169, ../../app/stylesheets/screen.sass */
+body#index_search #header {
+  display: block;
+  border-bottom: none;
+}
+/* line 172, ../../app/stylesheets/screen.sass */
+body#index_search #header h1.logo {
+  display: none;
+}
+/* line 174, ../../app/stylesheets/screen.sass */
+body#index_search #header .navigation {
+  float: right;
+}
+/* line 176, ../../app/stylesheets/screen.sass */
+body#index_search #header .navigation a {
+  color: #999999;
+}
+/* line 178, ../../app/stylesheets/screen.sass */
+body#index_search #content {
+  margin-top: 0;
+}
+/* line 181, ../../app/stylesheets/screen.sass */
+body#index_search #placeholder form.search {
+  margin-top: 2em;
+}
+/* line 183, ../../app/stylesheets/screen.sass */
 body#index_search #placeholder form.search input#search {
   width: 70%;
   font-size: 1.4em;
@@ -786,7 +811,7 @@ body#index_search #placeholder form.search input#search {
   border: 1px solid #cccccc;
   margin-right: 0.3em;
 }
-/* line 173, ../../app/stylesheets/screen.sass */
+/* line 189, ../../app/stylesheets/screen.sass */
 body#index_search #placeholder form.search input[type=submit] {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -859,7 +884,7 @@ body#index_search #placeholder form.search input[type=submit]:active, body#index
   color: #222222;
 }
 
-/* line 185, ../../app/stylesheets/screen.sass */
+/* line 201, ../../app/stylesheets/screen.sass */
 body#new_sessions #content, body.registrations #content, body.passwords #content {
   display: inline;
   float: left;
@@ -876,7 +901,7 @@ body#new_sessions #content, body.registrations #content, body.passwords #content
 * html body#new_sessions #content, * html body.registrations #content, * html body.passwords #content {
   overflow-x: hidden;
 }
-/* line 193, ../../app/stylesheets/screen.sass */
+/* line 209, ../../app/stylesheets/screen.sass */
 body#new_sessions #content .wrap, body.registrations #content .wrap, body.passwords #content .wrap {
   width: 470px;
   height: 449.565px;
@@ -889,7 +914,7 @@ body#new_sessions #content .wrap, body.registrations #content .wrap, body.passwo
   box-sizing: border-box;
   padding: 0em 3em;
 }
-/* line 206, ../../app/stylesheets/screen.sass */
+/* line 222, ../../app/stylesheets/screen.sass */
 body#new_sessions #content h2, body.registrations #content h2, body.passwords #content h2 {
   margin-bottom: 0.3em;
 }
@@ -954,7 +979,7 @@ body#new_sessions #content form textarea, body.registrations #content form texta
   width: 390px;
   height: 250px;
 }
-/* line 211, ../../app/stylesheets/screen.sass */
+/* line 227, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form input[type=submit], body.registrations #content form input[type=submit], body.passwords #content form input[type=submit] {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
@@ -1027,54 +1052,54 @@ body#new_sessions #content form input[type=submit]:active, body.registrations #c
 body#new_sessions #content form input[type=submit]:active, body#new_sessions #content form input[type=submit]:active:visited, body.registrations #content form input[type=submit]:active, body.registrations #content form input[type=submit]:active:visited, body.passwords #content form input[type=submit]:active, body.passwords #content form input[type=submit]:active:visited {
   color: #222222;
 }
-/* line 214, ../../app/stylesheets/screen.sass */
+/* line 230, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form input[type=email], body#new_sessions #content form input[type=password], body.registrations #content form input[type=email], body.registrations #content form input[type=password], body.passwords #content form input[type=email], body.passwords #content form input[type=password] {
   width: 97%;
   font-size: 2em;
   margin: 0;
   margin-bottom: 0.3em;
 }
-/* line 220, ../../app/stylesheets/screen.sass */
+/* line 236, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form p, body.registrations #content form p, body.passwords #content form p {
   margin-bottom: 0.3em;
 }
 
-/* line 225, ../../app/stylesheets/screen.sass */
+/* line 241, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form {
   margin-bottom: 1em;
 }
-/* line 227, ../../app/stylesheets/screen.sass */
+/* line 243, ../../app/stylesheets/screen.sass */
 body#new_sessions #content form p {
   margin-bottom: 0.3em;
 }
 
-/* line 233, ../../app/stylesheets/screen.sass */
+/* line 249, ../../app/stylesheets/screen.sass */
 body.registrations #content form input[type=submit] {
   margin-bottom: 1em;
 }
-/* line 236, ../../app/stylesheets/screen.sass */
+/* line 252, ../../app/stylesheets/screen.sass */
 body.registrations #content form i {
   margin-bottom: 0;
   font-size: 0.8em;
 }
-/* line 240, ../../app/stylesheets/screen.sass */
+/* line 256, ../../app/stylesheets/screen.sass */
 body.registrations #content h3 {
   clear: right;
   border-top: 1px dashed #cccccc;
   padding-top: 1em;
 }
 
-/* line 248, ../../app/stylesheets/screen.sass */
+/* line 264, ../../app/stylesheets/screen.sass */
 body#edit_registrations #content .wrap, body#update_registrations #content .wrap {
   padding-top: 2.8em;
   padding-bottom: 2.8em;
 }
 
-/* line 254, ../../app/stylesheets/screen.sass */
+/* line 270, ../../app/stylesheets/screen.sass */
 body#new_passwords #content form, body#create_passwords #content form {
   margin-bottom: 1.3em;
 }
-/* line 256, ../../app/stylesheets/screen.sass */
+/* line 272, ../../app/stylesheets/screen.sass */
 body#new_passwords #content form input[type=submit], body#create_passwords #content form input[type=submit] {
   float: none;
 }
