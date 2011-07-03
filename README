@@ -15,7 +15,8 @@ TODO
 - Check optional/required model fields.
 - Look into scoring functions for optimizing search
   (http://indextank.com/documentation/ruby-client#document-variables)
-- Add search box to search page.
+- Expand the main page with more content and links to adding content / how the
+  site works / expand description to include streaming.
 
 
 Completed TODO
@@ -35,6 +36,7 @@ Completed TODO
   2. Write script that takes artists from database, then gets albums from that artist.
 - Setup indextank for search.
   Use: https://github.com/kidpollo/tanker
+- Add search box to search page.
 
 Won't Fix TODO
 --------------

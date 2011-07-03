@@ -5,9 +5,15 @@
     %h1.logo ALBUM<span class="fs">FS</span>
     %p handpicked directory of free music
 
-    =form_tag('/search', :class => 'search', :method => :get) do
+    -# NOTE: We don't use form_tag because in rails 3, we get the 'snowman' utf
+    -# parameter inserted (see http://goo.gl/vhGvR). Thus, we manually define
+    -# the form element.
+    -#=form_tag('/search', :class => 'search', :method => :get) do
+    %form{:action => search_path, :method => 'get', :class => 'search', :'accept-charset' => 'UTF-8'}
       -#=label_tag 'search', 'Search'
       -# NOTE: We purposely don't autofocus on the field so that user can read
       -# the placeholder.
-      =text_field_tag 'search', value = nil, :placeholder => 'Search for an Artist, Album, or Song...'
-      =submit_tag 'Search'
+      =text_field_tag 'q', value = nil, :placeholder => 'Search for an Artist, Album, or Song...'
+      -# We set the submit name (default was 'commit') to nil so that it does not
+      -# get passed along with the search GET params.
+      =submit_tag 'Search', :name => nil

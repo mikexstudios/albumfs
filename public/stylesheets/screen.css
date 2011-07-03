@@ -804,7 +804,7 @@ body#index_search #placeholder form.search {
   margin-top: 2em;
 }
 /* line 183, ../../app/stylesheets/screen.sass */
-body#index_search #placeholder form.search input#search {
+body#index_search #placeholder form.search input#q {
   width: 70%;
   font-size: 1.4em;
   padding: 0.4em 0.5em;
