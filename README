@@ -8,21 +8,18 @@ TODO
 - Set page title on devise auth pages. May have to start building own templates.
   Can use a hack to set the title by detecting the controller and action.
 - Use authorization to secure admin site.
-- Save database dump once we populate the database correctly.
-  See: https://github.com/ludicast/yaml_db
-  And: http://devcenter.heroku.com/articles/taps
 - Check optional/required model fields.
 - Look into scoring functions for optimizing search
   (http://indextank.com/documentation/ruby-client#document-variables)
 - Expand the main page with more content and links to adding content / how the
   site works / expand description to include streaming.
-- Get album artwork image
 - Display and stylize search results
 - Fix heroku bug where searching for 'the' or '.' gives page looking for doesn't
   exist.
 - Perhaps populate album tracks with last.fm album.getinfo data instead of
   musicbrainz data.
-- Get album art from last.fm
+- Create About page with attribution to album art placeholder icon:
+  http://www.iconfinder.com/icondetails/27838/256/cd_compact_disk_dvd_icon
 
 
 Completed TODO
@@ -44,6 +41,10 @@ Completed TODO
   Use: https://github.com/kidpollo/tanker
 - Add search box to search page.
 - Search box on home page.
+- Get album art from last.fm
+- Save database dump once we populate the database correctly.
+  See: https://github.com/ludicast/yaml_db
+  And: http://devcenter.heroku.com/articles/taps
 
 Won't Fix TODO
 --------------

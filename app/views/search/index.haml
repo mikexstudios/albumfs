@@ -17,7 +17,7 @@
   !=page_entries_info @results, :entry_name => 'result'
 
 #search_results
-  =will_paginate @results
+  -#=will_paginate @results
   %ul.results
     -@results.each do |album|
       -# Each result resides in its own li, with the ability for a sub div in each.
