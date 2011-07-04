@@ -24,8 +24,9 @@
       %li
         %img.albumart{:src => (not album.album_art.medium.blank?) ? album.album_art.medium : image_path('album-placeholder-64px.png'), 
                       :alt => 'album art'}
-        =album.artist.name
-        =album.title
+        %h3.artist_name= album.artist.name
+        %h2.album_title= album.title
+        %p.tracks= album.tracks.each_with_index.map {|t, i| '%i. %s' % [i+1, t.title]}.join(', ').truncate(100)
 
 
 
