@@ -4,7 +4,15 @@
     %meta{ :charset => "UTF-8" }
     = csrf_meta_tag
 
-    %title= yield :title
+    -# Temporary hack to set auth page titles until proper views are created
+    - if controller.controller_name == 'registrations'
+      %title Registration | AlbumFS
+    - elsif controller.controller_name == 'sessions'
+      %title Sessions | AlbumFS
+    - elsif controller.controller_name == 'passwords'
+      %title Passwords | AlbumFS
+    - else
+      %title= yield :title
 
     -#= stylesheet_link_tag 'scaffold'
     = javascript_include_tag :defaults
