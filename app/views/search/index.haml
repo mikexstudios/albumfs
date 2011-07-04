@@ -22,6 +22,8 @@
     -@results.each do |album|
       -# Each result resides in its own li, with the ability for a sub div in each.
       %li
+        %img.albumart{:src => (not album.album_art.medium.blank?) ? album.album_art.medium : image_path('album-placeholder-64px.png'), 
+                      :alt => 'album art'}
         =album.artist.name
         =album.title
 

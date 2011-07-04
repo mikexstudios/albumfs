@@ -185,7 +185,7 @@ body#home_pages
 body#index_search
   #previous_search
     form.search
-      margin-top: 2em
+      //margin-top: 2em
       input#q
         width: 60%
         font-size: 1.4em
@@ -196,6 +196,26 @@ body#index_search
         outline: none
       input[type=submit]
         +fancy-button(#eee)
+  #search_results
+    margin-top: 1em
+    ul.results
+      padding: 0
+      +no-bullets
+      //We need clearfix hack so that any margin definitions outside of the results
+      //div will work correctly.
+      +clearfix
+      li
+        clear: left
+        //padding-top: 1em
+        margin-bottom: 1em
+        +clearfix
+        img.albumart
+          float: left
+          border: 1px solid #eee
+          padding: 3px
+          margin-right: 1em
+    .pagination
+      clear: both
         
     
       
