@@ -17,7 +17,8 @@
   !=page_entries_info @results, :entry_name => 'result'
 
 #search_results
-  -#=will_paginate @results
+  =will_paginate @results
+
   %ul.results
     -@results.each do |album|
       -# Each result resides in its own li, with the ability for a sub div in each.
@@ -27,7 +28,5 @@
         %h3.artist_name= album.artist.name
         %h2.album_title= album.title
         %p.tracks= album.tracks.each_with_index.map {|t, i| '%i. %s' % [i+1, t.title]}.join(', ').truncate(100)
-
-
 
   =will_paginate @results

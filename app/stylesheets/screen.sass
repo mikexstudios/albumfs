@@ -200,6 +200,8 @@ body#index_search
     margin-top: 1em
     ul.results
       padding: 0
+      margin: 0
+      margin-bottom: 0.5em
       +no-bullets
       //We need clearfix hack so that any margin definitions outside of the results
       //div will work correctly.
@@ -228,6 +230,26 @@ body#index_search
           color: #999
     .pagination
       clear: both
+      margin-bottom: 1em
+      font-size: 1.2em
+      a, span
+        padding: 4px 7px 4px 7px
+        margin: 0 3px 0 3px
+        border: 1px solid #ddd
+        text-decoration: none
+        color: $font-color
+      a:hover, a:active
+        border: 1px solid #ccc
+        color: #000
+      .current
+        border: 1px solid $logo-red
+        font-weight: bold
+        background-color: $logo-red
+        color: #fff
+      .disabled
+        border: 1px solid #eee
+        color: #ddd
+          
         
     
       
