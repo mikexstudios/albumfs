@@ -6,7 +6,10 @@
 
     -# Temporary hack to set auth page titles until proper views are created
     - if controller.controller_name == 'registrations'
-      %title Registration | AlbumFS
+      -if action_name == 'edit'
+        %title Edit User | AlbumFS
+      -else
+        %title Registration | AlbumFS
     - elsif controller.controller_name == 'sessions'
       %title Sessions | AlbumFS
     - elsif controller.controller_name == 'passwords'
