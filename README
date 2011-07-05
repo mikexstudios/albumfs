@@ -16,6 +16,9 @@ TODO
 - Create About page with attribution to album art placeholder icon:
   http://www.iconfinder.com/icondetails/27838/256/cd_compact_disk_dvd_icon
 - Display message is artist is not found.
+- Solve Heroku first load error problem.
+  Seems like it is caused by SASS writing files to unwritable directory.
+  https://github.com/koppen/hassle
 
 
 Low priority TODO
