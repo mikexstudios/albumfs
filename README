@@ -1,12 +1,12 @@
 TODO
 ----
 
+- Add pages for user to submit new albums / artists. 
 - Look into scoring functions for optimizing search
   (http://indextank.com/documentation/ruby-client#document-variables)
 - Add left sidebar (like Google) for user to filter and sort search.
 - Add right sidebox to include information on how to add an artist/album as well
   as the button for doing so.
-- Add pages for user to submit new albums / artists. 
   Need to think through the process of doing this carefully.
 - Use slugs on artist, album models (https://github.com/norman/friendly_id)
 - Use authorization to secure admin site.
@@ -15,7 +15,6 @@ TODO
   site works / expand description to include streaming.
 - Create About page with attribution to album art placeholder icon:
   http://www.iconfinder.com/icondetails/27838/256/cd_compact_disk_dvd_icon
-- Display message is artist is not found.
 - Solve Heroku first load error problem.
   Seems like it is caused by SASS writing files to unwritable directory.
   https://github.com/koppen/hassle
@@ -59,6 +58,8 @@ Completed TODO
   exist.
   (Seems like the problem was that I needed to migrate the db.)
 - Add ability to search through albums / songs / artists.
+- Display message is artist is not found.
+
 
 Won't Fix TODO
 --------------
