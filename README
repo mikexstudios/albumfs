@@ -2,6 +2,7 @@ TODO
 ----
 
 - Add pages for user to submit new albums / artists. 
+- Add explanation page for submitting albums.
 - Look into scoring functions for optimizing search
   (http://indextank.com/documentation/ruby-client#document-variables)
 - Add left sidebar (like Google) for user to filter and sort search.
