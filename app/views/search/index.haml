@@ -31,7 +31,7 @@
           %p.tracks= album.tracks.each_with_index.map {|t, i| '%i. %s' % [i+1, t.title]}.join(', ').truncate(100)
   -else
     .no_results
-      %h3 Sorry, we could not find what you were looking for...
+      %h3 Sorry, we could not find what you were looking for... Help us improve!
       %p.explanation
         All data in <span class="logo">ALBUM<span class="fs">FS</span></span>
         is carefully handpicked and user-contributed. Perhaps you can help us
