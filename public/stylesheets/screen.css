@@ -59,7 +59,7 @@ a img {
 
 /* incase an inverted custom gradient isn't specified */
 /* line 177, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class, body#home_pages #placeholder form.search input[type=submit], body#index_search #previous_search form.search input[type=submit], body#index_search #search_results .no_results .right a, body#new_sessions #content form input[type=submit], body.registrations #content form input[type=submit], body.passwords #content form input[type=submit] {
+.fancy-button-reset-base-class, body#home_pages #placeholder form.search input[type=submit], body#index_search #previous_search form.search input[type=submit], body#index_search #search_results .no_results .actions a, body#new_sessions #content form input[type=submit], body.registrations #content form input[type=submit], body.passwords #content form input[type=submit] {
   font-family: "Lucida Grande", Lucida, Arial, sans-serif;
   background: url('/images/button_bg.png?1308776752') repeat-x bottom left;
   margin: 0;
@@ -72,12 +72,12 @@ a img {
   font-weight: bold;
 }
 /* line 165, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class::-moz-focus-inner, body#home_pages #placeholder form.search input[type=submit]::-moz-focus-inner, body#index_search #previous_search form.search input[type=submit]::-moz-focus-inner, body#index_search #search_results .no_results .right a::-moz-focus-inner, body#new_sessions #content form input[type=submit]::-moz-focus-inner, body.registrations #content form input[type=submit]::-moz-focus-inner, body.passwords #content form input[type=submit]::-moz-focus-inner {
+.fancy-button-reset-base-class::-moz-focus-inner, body#home_pages #placeholder form.search input[type=submit]::-moz-focus-inner, body#index_search #previous_search form.search input[type=submit]::-moz-focus-inner, body#index_search #search_results .no_results .actions a::-moz-focus-inner, body#new_sessions #content form input[type=submit]::-moz-focus-inner, body.registrations #content form input[type=submit]::-moz-focus-inner, body.passwords #content form input[type=submit]::-moz-focus-inner {
   border: none;
   padding: 0;
 }
 /* line 168, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-.fancy-button-reset-base-class:focus, body#home_pages #placeholder form.search input[type=submit]:focus, body#index_search #previous_search form.search input[type=submit]:focus, body#index_search #search_results .no_results .right a:focus, body#new_sessions #content form input[type=submit]:focus, body.registrations #content form input[type=submit]:focus, body.passwords #content form input[type=submit]:focus {
+.fancy-button-reset-base-class:focus, body#home_pages #placeholder form.search input[type=submit]:focus, body#index_search #previous_search form.search input[type=submit]:focus, body#index_search #search_results .no_results .actions a:focus, body#new_sessions #content form input[type=submit]:focus, body.registrations #content form input[type=submit]:focus, body.passwords #content form input[type=submit]:focus {
   outline: none;
 }
 
@@ -1039,18 +1039,18 @@ body#index_search #search_results .no_results h3 {
   font-size: 1.6em;
 }
 /* line 256, ../../app/stylesheets/screen.sass */
-body#index_search #search_results .no_results p.left {
+body#index_search #search_results .no_results p.explanation {
   font-size: 1.3em;
   width: 40%;
   float: left;
   margin-right: 2em;
 }
 /* line 261, ../../app/stylesheets/screen.sass */
-body#index_search #search_results .no_results .right {
+body#index_search #search_results .no_results .actions {
   margin-top: 1.9em;
 }
 /* line 264, ../../app/stylesheets/screen.sass */
-body#index_search #search_results .no_results .right a {
+body#index_search #search_results .no_results .actions a {
   -moz-border-radius: 6px;
   -webkit-border-radius: 6px;
   -o-border-radius: 6px;
@@ -1085,11 +1085,11 @@ body#index_search #search_results .no_results .right a {
   margin-bottom: 0.5em;
 }
 /* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body#index_search #search_results .no_results .right a, body#index_search #search_results .no_results .right a:visited {
+body#index_search #search_results .no_results .actions a, body#index_search #search_results .no_results .actions a:visited {
   color: #222222;
 }
 /* line 31, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body#index_search #search_results .no_results .right a:hover, body#index_search #search_results .no_results .right a:focus {
+body#index_search #search_results .no_results .actions a:hover, body#index_search #search_results .no_results .actions a:focus {
   background-color: white;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(10%, #ffffff), color-stop(50%, #dfdfdf), color-stop(50%, #d7d7d7), color-stop(100%, #f1f1f1));
   background-image: -webkit-linear-gradient(#ffffff, #ffffff 10%, #dfdfdf 50%, #d7d7d7 50%, #f1f1f1);
@@ -1101,11 +1101,11 @@ body#index_search #search_results .no_results .right a:hover, body#index_search 
   text-shadow: white 0px 1px 1px;
 }
 /* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body#index_search #search_results .no_results .right a:hover, body#index_search #search_results .no_results .right a:hover:visited, body#index_search #search_results .no_results .right a:focus, body#index_search #search_results .no_results .right a:focus:visited {
+body#index_search #search_results .no_results .actions a:hover, body#index_search #search_results .no_results .actions a:hover:visited, body#index_search #search_results .no_results .actions a:focus, body#index_search #search_results .no_results .actions a:focus:visited {
   color: #222222;
 }
 /* line 36, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body#index_search #search_results .no_results .right a:active {
+body#index_search #search_results .no_results .actions a:active {
   background-color: white;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dfdfdf), color-stop(30%, #e4e4e4), color-stop(50%, #dadada), color-stop(50%, #d2d2d2), color-stop(100%, #f3f3f3));
   background-image: -webkit-linear-gradient(#dfdfdf, #e4e4e4 30%, #dadada 50%, #d2d2d2 50%, #f3f3f3);
@@ -1121,7 +1121,7 @@ body#index_search #search_results .no_results .right a:active {
   box-shadow: #c8c8c8 0 0.08em 0.2em 1px inset;
 }
 /* line 120, ../../../../../.rvm/gems/ruby-1.9.2-p0@rails3tutorial/gems/fancy-buttons-1.1.1/lib/stylesheets/_fancy-buttons.sass */
-body#index_search #search_results .no_results .right a:active, body#index_search #search_results .no_results .right a:active:visited {
+body#index_search #search_results .no_results .actions a:active, body#index_search #search_results .no_results .actions a:active:visited {
   color: #222222;
 }
 
