@@ -1,6 +1,8 @@
 TODO
 ----
 
+- Add Artist show page.
+- Add Album show page.
 - Add pages for user to submit new albums / artists. 
 - Add explanation page for submitting albums.
 - Look into scoring functions for optimizing search
