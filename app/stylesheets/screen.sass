@@ -198,6 +198,7 @@ body#index_search
         +fancy-button(#eee)
   #search_results
     margin-top: 1em
+    $results-columns: 17
     ul.results
       padding: 0
       margin: 0
@@ -206,6 +207,7 @@ body#index_search
       //We need clearfix hack so that any margin definitions outside of the results
       //div will work correctly.
       +clearfix
+      +column($results-columns)
       li
         clear: left
         //padding-top: 1em
@@ -249,6 +251,17 @@ body#index_search
       .disabled
         border: 1px solid #eee
         color: #ddd
+
+    .add_helper
+      $add-helper-columns: $blueprint-grid-columns - $results-columns
+      +column($add-helper-columns, true)
+      +box-sizing(border-box)
+      padding: 1em
+      border: 3px solid #ccc
+      h3
+        line-height: 1.3em
+      .hint
+        font-size: 0.9em
 
     .no_results
       padding: 1.5em

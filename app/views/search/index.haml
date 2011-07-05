@@ -29,6 +29,16 @@
           %h3.artist_name= album.artist.name
           %h2.album_title= album.title
           %p.tracks= album.tracks.each_with_index.map {|t, i| '%i. %s' % [i+1, t.title]}.join(', ').truncate(100)
+    .add_helper
+      %h3 Did not find what you were looking for? Help us improve!
+      %p.explanation
+        All data in <span class="logo">ALBUM<span class="fs">FS</span></span>
+        is carefully handpicked and user-contributed. Perhaps you can help us
+        and other users out by <a href="">adding a new artist</a> or by <a
+        href="">adding a new album</a>. 
+      .hint
+        <em>Hint</em>: Looking to add a new streaming or download link?
+        You can do that on the album page.
   -else
     .no_results
       %h3 Sorry, we could not find what you were looking for... Help us improve!
