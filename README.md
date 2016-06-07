@@ -1,3 +1,32 @@
+albumfs
+=======
+
+a webapp to share download links for free music albums. The idea was to 
+have a community of music lovers crowdsource a directory of their favorite
+albums with download links. 
+
+**This project is no longer being developed with a last commit in 2011.**
+
+## Usage
+
+2. Build the `Dockerfile`:
+
+   `docker build -t mikexstudios/albumfs .`
+
+2. Run it like:
+
+   `docker run -d -p 80:80 mikexstudios/albumfs`
+
+   If you want to develop while running the script, mount the current 
+   directory by:
+
+   ```docker run -d -p 80:80 -v `pwd`:/usr/src/app mikexstudios/albumfs```
+
+3. Then visit the container's IP address in your browser. Note that since
+   the IndexTank full-text search service no longer exists, searching for
+   albums does not work.
+
+
 TODO
 ----
 

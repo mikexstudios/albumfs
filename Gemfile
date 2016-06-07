@@ -1,11 +1,18 @@
 source 'http://rubygems.org'
 
+# Avoids ArgumentError: invalid byte sequence in US-ASCII
+# See: http://stackoverflow.com/a/8926881/66771
+if RUBY_VERSION =~ /1.9/
+  Encoding.default_external = Encoding::UTF_8
+  Encoding.default_internal = Encoding::UTF_8
+end
+
 gem 'rails', '~> 3.0.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'sqlite3-ruby', '~> 1.3.3', :require => 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -38,7 +45,8 @@ gem 'haml_rails', '~> 0.1.0' #for haml generators
 gem 'high_voltage', '~> 0.9.4' #static pages
 
 gem 'devise', '~> 1.3.4' #must be required before rails_admin
-gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git'
+gem 'rails_admin', :git => 'git://github.com/sferik/rails_admin.git', 
+                   :ref => '01a6807e12f97bd614d5d679b149f4d5226afda7'
 
 gem 'choices', '~> 0.2.4' #for configuration
 
@@ -51,10 +59,12 @@ group :development do
   gem 'annotate', '~> 2.4.0'
 
   #For XML parsing, used by lastfm scripts.
-  gem 'nokogiri', '~> 1.4.6'
+  #See: http://stackoverflow.com/a/14072221/66771
+  #gem 'nokogiri', '~> 1.4.6'
+  gem 'nokogiri', '~> 1.5.4'
 
-  gem 'ruby-debug19'
-  gem 'irbtools'
+  gem 'ruby-debug19', '~> 0.11.6'
+  gem 'irbtools', '~> 1.0.4'
 
   #For querying discogs api
   #gem 'rest-client', '~> 1.6.3'

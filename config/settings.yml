@@ -1,10 +1,7 @@
 defaults: &defaults
   lastfm:
-    #key: <%= ENV['LASTFM_KEY'] %>
-    #secret: <%= ENV['LASTFM_SECRET'] %>
-    #Can't name this key because conflicts with ruby
-    apikey: c6feef31bfc45e16a850e1f60b7902f4
-    secret: fb3653061c50e1b8e001ffbd8d83d708
+    apikey: <%= ENV['LASTFM_KEY'] %>
+    secret: <%= ENV['LASTFM_SECRET'] %>
 
 development:
   <<: *defaults
