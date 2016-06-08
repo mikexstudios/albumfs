@@ -1,11 +1,28 @@
 albumfs
 =======
 
+**This project is no longer being developed with last commits in 2011.**
+
+<img src="https://github.com/mikexstudios/albumfs/blob/master/screenshots/home.png" alt="home" width="60%">
+
 a webapp to share download links for free music albums. The idea was to 
 have a community of music lovers crowdsource a directory of their favorite
 albums with download links. 
 
-**This project is no longer being developed with a last commit in 2011.**
+## More screenshots
+
+<table>
+<tr>
+  <td align="center">
+   <img src="https://github.com/mikexstudios/albumfs/blob/master/screenshots/signup.png" alt="home" width="100%">
+   <p><strong>Sign up</strong></p>
+  </td>
+  <td align="center">
+    <img src="https://github.com/mikexstudios/albumfs/blob/master/screenshots/signin.png" alt="home" width="100%">
+    <p><strong>Sign in</strong></p>
+  </td>
+</tr>
+</table>
 
 ## Usage
 
